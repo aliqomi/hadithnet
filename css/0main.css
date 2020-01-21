@@ -1,0 +1,430 @@
+﻿@import url(font-awesome.min.css);
+@font-face {
+  font-family: Sahel;
+  src: url('../fonts/sahel.eot');
+  src: url('../fonts/sahel.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/sahel.woff2') format('woff2'),
+      url('../fonts/sahel.woff') format('woff'),
+    url('../fonts/sahel.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('../fonts/Sahel-Bold.eot');
+  src: url('../fonts/Sahel-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Sahel-Bold.woff') format('woff2'),
+      url('../fonts/Sahel-Bold.woff') format('woff'),
+    url('../fonts/Sahel-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('../fonts/sahel-black.eot');
+  src: url('../fonts/sahel-black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/sahel-black.woff') format('woff2'),
+      url('../fonts/sahel-black.woff') format('woff'),
+    url('../fonts/sahel-black.ttf') format('truetype');
+  font-weight: 900;
+}
+@font-face {
+  font-family: Vazir;
+  src: url('../fonts/vazir.eot');
+  src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/vazir.woff') format('woff2'),
+      url('../fonts/vazir.woff') format('woff'),
+    url('../fonts/vazir.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url('../fonts/vazir.eot');
+  src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/vazir.woff') format('woff2'),
+      url('../fonts/vazir.woff') format('woff')
+    url('../fonts/vazir.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url('../fonts/Vazir-Bold.eot');
+  src: url('../fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Bold.woff') format('woff2'),
+      url('../fonts/Vazir-Bold.woff') format('woff'),
+    url('../fonts/Vazir-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: Vazir;
+  src: url('../fonts/Vazir-Light.eot');
+  src: url('../fonts/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Light.woff') format('woff2'),
+       url('../fonts/Vazir-Light.woff') format('woff'),
+    url('../fonts/Vazir-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: Vazir;
+  src: url('../fonts/Vazir-Medium.eot');
+  src: url('../fonts/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Medium.woff') format('woff2'),
+       url('../fonts/Vazir-Medium.woff') format('woff'),
+    url('../fonts/Vazir-Medium') format('truetype');
+  font-weight: 500;
+}
+body {
+    font-family: Vazir,tahoma,arial ;
+    font-size: 14px;
+    line-height: 1.42857143;
+    direction: rtl;
+     background: #f5f8fa;
+}
+.bbb{
+    height: 300px;
+    border: 1px solid #000;
+}
+.section1 .container{
+    background: #f5f8fa;
+}
+.conttop {
+    background: #f5f8fa;
+}
+nav.navbar {
+    /*background: #6d7fcc;
+    color: #fff;
+    border-bottom: none;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);*/
+    padding: 0;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+/*======================================
+//--//-->   NAVBAR
+======================================*/
+.conttop{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-default {
+  transition: all .5s ease-in-out;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+ 
+}
+
+.navbar-default.navbar-reduce {
+  box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3);
+}
+
+.navbar-default.navbar-trans,
+.navbar-default.navbar-reduce {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.navbar-default.navbar-trans .nav-item,
+.navbar-default.navbar-reduce .nav-item {
+  position: relative;
+  padding-right: 10px;
+  padding-bottom: 8px;
+  margin-left: 0;
+}
+
+.navbar-default.navbar-trans .nav-link,
+.navbar-default.navbar-reduce .nav-link {
+  font-size: 1.1rem;
+  color: #000000;
+  font-weight: 600;
+  letter-spacing: 0.030em;
+  transition: all 0.1s ease-in-out;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-default.navbar-trans .nav-link:before,
+.navbar-default.navbar-reduce .nav-link:before {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  z-index: 0;
+  background-color: #2eca6a;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: right;
+  transform-origin: right;
+  transition: opacity .2s ease-out 0.3s, -webkit-transform .2s ease-out;
+  transition: transform .2s ease-out, opacity .2s ease-out 0.3s;
+  transition: transform .2s ease-out, opacity .2s ease-out 0.3s, -webkit-transform .2s ease-out;
+}
+
+.navbar-default.navbar-trans .nav-link:hover,
+.navbar-default.navbar-reduce .nav-link:hover {
+  color: #000000;
+}
+
+.navbar-default.navbar-trans .nav-link:hover:before,
+.navbar-default.navbar-reduce .nav-link:hover:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transform-origin: left;
+  transform-origin: left;
+}
+
+.navbar-default.navbar-trans .show > .nav-link:before,
+.navbar-default.navbar-trans .active > .nav-link:before,
+.navbar-default.navbar-trans .nav-link.show:before,
+.navbar-default.navbar-trans .nav-link.active:before,
+.navbar-default.navbar-reduce .show > .nav-link:before,
+.navbar-default.navbar-reduce .active > .nav-link:before,
+.navbar-default.navbar-reduce .nav-link.show:before,
+.navbar-default.navbar-reduce .nav-link.active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.navbar-default.navbar-trans .nav-link:before {
+  background-color: #2eca6a;
+}
+
+.navbar-default.navbar-trans .nav-link:hover {
+  color: #000000;
+}
+
+.navbar-default.navbar-trans .show > .nav-link,
+.navbar-default.navbar-trans .active > .nav-link,
+.navbar-default.navbar-trans .nav-link.show,
+.navbar-default.navbar-trans .nav-link.active {
+  color: #000000;
+}
+
+.navbar-default.navbar-reduce {
+  transition: all .5s ease-in-out;
+  
+}
+
+.navbar-default.navbar-reduce .nav-link {
+  color: #000000;
+}
+
+.navbar-default.navbar-reduce .nav-link:before {
+  background-color: #2eca6a;
+}
+
+.navbar-default.navbar-reduce .nav-link:hover {
+  color: #000000;
+}
+
+.navbar-default.navbar-reduce .show > .nav-link,
+.navbar-default.navbar-reduce .active > .nav-link,
+.navbar-default.navbar-reduce .nav-link.show,
+.navbar-default.navbar-reduce .nav-link.active {
+  color: #000000;
+}
+
+.navbar-default.navbar-reduce .navbar-brand {
+  color: #000000;
+}
+
+.navbar-default .dropdown .dropdown-menu {
+  border-top: 0;
+  border-left: 4px solid #2eca6a;
+  border-right: 0;
+  border-bottom: 0;
+  -webkit-transform: translate3d(0px, -40px, 0px);
+  transform: translate3d(0px, -40px, 0px);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  visibility: hidden;
+  transition: all 0.5s cubic-bezier(0.3, 0.65, 0.355, 1) 0s, opacity 0.31s ease 0s, height 0s linear 0.36s;
+  margin: 0;
+  border-radius: 0;
+  padding: 12px 0;
+}
+
+.navbar-default .dropdown .dropdown-menu .dropdown-item {
+  padding: 12px 18px;
+  transition: all 500ms ease;
+  font-weight: 600;
+  min-width: 220px;
+}
+
+.navbar-default .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #ffffff;
+  color: #2eca6a;
+  transition: all 500ms ease;
+}
+
+.navbar-default .dropdown .dropdown-menu .dropdown-item.active {
+  background-color: #ffffff;
+  color: #2eca6a;
+}
+
+.navbar-default .dropdown:hover .dropdown-menu {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  visibility: visible;
+  opacity: 1;
+  filter: alpha(opacity=1);
+}
+/*********************************************************************************************/
+/*************************************slider********************************************************/
+.swiper-container {
+      width: 100%;
+      height: 100%;
+
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+.caption {
+    margin-top: -150px;
+     position: absolute;
+    z-index: 2000000;
+  height: 100%;
+  display: block;
+}
+/*************************************END slider********************************************************/
+.rowslider{
+    margin-top: 20px;
+}
+.newhome, .slidhome{
+    padding: 30px;
+   
+}
+.newhome .list-group-item, .newhome .list-group-item {
+    border: 0;
+    padding: 6px 0!important;
+}
+.list-group-item:first-child, .list-group-item:last-child {
+    border-radius: 0;
+}
+
+
+/*------------------------------*/
+
+.newbox , .slidbox {
+    position: relative
+}
+
+.newbox .newlist {
+    margin: 0
+}
+
+.newbox .newlist .list-group {
+    padding: 15px;
+    display: block;
+    background: #fff;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 30px rgba(16,14,23,.25);
+    box-shadow: 0 0 30px rgba(16,14,23,.25);
+    }
+
+.newbox>* ,.slidbox>* {
+    position: relative
+}
+
+.newbox::before {
+     content: "";
+    background: #045077;
+    position: absolute;
+    top: -1rem;
+    left: 1rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    padding-bottom: 1rem
+    }
+.newtitr {
+     font-family: Sahel,tahoma,arial ;
+    font-size: 16px;
+    font-weight: 700;
+    padding: .5rem 55px 1.5rem 3.4rem;
+    margin-right: 1rem;
+    color: #e2e2f3;
+    white-space: normal;
+    text-align: left;
+   }
+
+.newtitr .newimg {
+    position: absolute;
+    left: -.1rem;
+    top: -.1rem;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    border: 3px solid #045077;
+    }
+/*-------------------------------------------------------------*/
+
+.slidbox .slidlist .list-group {
+    padding: 15px;
+    display: block;
+    background: #fff;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 30px rgba(16,14,23,.25);
+    box-shadow: 0 0 30px rgba(16,14,23,.25);
+}
+.slidbox::before {
+    content: "";
+    background: #045077;
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    padding-bottom: 1rem
+}
+.slidtitr {
+    font-family: Sahel,tahoma,arial ;
+    font-size: 16px;
+    font-weight: 700;
+    padding: .5rem 2rem 1.5rem 55px;
+    margin-right: 1rem;
+    color: #e2e2f3;
+    white-space: normal;
+    text-align: right;
+}
+
+.slidtitr .slidimg {
+   position: absolute;
+    right: -1.4rem;
+    top: -.1rem;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    border: 3px solid #045077;
+}
+/*---------------------------------------------------------------*/
+.hadithdaily p{
+   margin-bottom: 0.2rem;
+}

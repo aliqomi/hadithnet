@@ -1,0 +1,438 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>حدیث نت</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-rtl.css" rel="stylesheet" />
+    <link href="css/waves.css" rel="stylesheet" />
+    <link href="css/swiper.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/002page2.css" rel="stylesheet" />
+    <link href="css/resp.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <!--<link href="css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="css/owl.theme.default.min.css" rel="stylesheet" />-->
+</head>
+
+<body>
+    <header class="header">
+       <div class="progress-container">
+    <div class="progress-bar" id="headerBar"></div>
+  </div>
+        <div class="container">
+            <div class="row rowhead">
+                
+                    <a class="navbar-brand sticky-top logo" href="#"> <img src="images/logohadithnet.png" alt="" class=""> </a>
+             
+                
+                <div class="hadithdaily align-self-center">
+                    <div data-toggle="modal" data-target="#hadithModal">
+                        <p class="HadithRavi"> پیامبر اکرم صلی الله علیه و آله </p>
+                        <p class="HadithTransLate"> محبوب ترين چيز نزد خداى متعال، آن است كه ببيند مرد، با زن و فرزندانش
+                            بر سر يك سفره، غذا مى خورند. </p>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="hadithModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header justify-content-between">
+                                    <h5 class="modal-title" id="exampleModalLabel">حدیث روز</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="HadithRavi"> پیامبر اکرم صلی الله علیه و آله </p>
+                                    <p class="HadithText"> <a href="http://dailyhadith.ir" target="_blank" class="Link"
+                                            amino-styles="transition: all 0.6s ease-in-out 0s;text-decoration: none;
+ color: red;
+ outline: 0;outline: 0 !important;">
+                                            أحَبُّ شَيءٍ إلَى اللّهِ تَعالى أن يَرَى الرَّجُلَ مَعَ امرَأَتِهِ ووُلدِهِ
+                                            عَلى مائِدَةٍ يَأكُلونَ .
+                                        </a> </p>
+                                    <p class="HadithTransLate"> محبوب ترين چيز نزد خداى متعال، آن است كه ببيند مرد، با
+                                        زن و فرزندانش بر سر يك سفره، غذا مى خورند. </p>
+                                    <p class="HadithAddress"> تنبيه الغافلين : ص ۳۴۳ ح ۴۹۸ </p>
+
+                                </div>
+                                <div class="modal-footer justify-content-between">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">بستن</button>
+                                    <a class="btn btn-primary Subscribe"
+                                        href="http://www.dailyhadith.ir/account/register" target="_blank" amino-styles="transition: all 0.6s ease-in-out 0s;text-decoration: none;
+ color: red;
+ outline: 0;outline: 0 !important;"> <span class="right" amino-styles="float: right;">ثبت نام حدیث روز</span> </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="srch align-self-center text-center">
+                    <img src="images/besmellah1.png" class="besmellah" >
+                        <ul class="datehead">
+                                <div class="module64">
+                                    <li><a href="#">العربیة</a></li>
+                                    <li><a href="#">English</a></li>
+                                    
+                                </div>
+                            </ul>
+                            <button class="btsrch sticky-top collapsed" data-toggle="collapse" data-target="#demo"><i class="fa"></i></button>
+                        <div class="srchinput sticky-top">
+                                
+                            <div id="panelSimpleSearchModule" class="search-box form-group simplesearch" style="margin: 0 auto;" data-subsite="">
+                                <div class="input-group input-group-sm">
+                                    <input class="form-control" id="txtsearch_SimpleSearch" placeholder="جستجو ..." onkeypress="EnterTest_SimpleSearch(event);" type="text" value="">
+                                    <input class="form-control" id="txtperson_SimpleSearch" placeholder="نام مولف" onkeypress="EnterTest_Person_SimpleSearch(event);" type="text" value="" style="display: none;">
+                                    <div class="input-group-addon btn" onclick="checkSearchWord_SimpleSearch();">
+                                        <i class="fa fa-search"></i></div>
+                                </div>
+                            </div>
+                            <script>sourceType=0;sourceID=0</script>
+                        </div>
+                        
+                    </div>
+                    
+
+
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-default navbar-expand-sm sticky-top navbar-trans">
+        <div class="container conttop">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto mr-auto">
+                    <li class="nav-item"> <a class="nav-link" href="#">احادیث
+                            <span class="sr-only">(current)</span>
+                        </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">معارف حدیث</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">متون حدیث</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">علوم حدیث</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">شرح حدیث</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">خدمات حدیث</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">دارالحدیث</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container container_Navigation mainpanle">
+        <div class="row">
+         <div class="current-box col-lg-8 col-md-8 col-sm-12 col-xs-12 module41"> <div class="navigation"> <a href="/" class="color-main-1" title="صفحه اول"><i class="fa fa-home" style="font-size: 14pt;"></i></a> <span class="separator"> / </span> <a class="navigation-anchor" href="/Posts/3803">خانه</a> <span class="separator"> / </span> <a class="navigation-anchor" href="/Posts/3823">اخبار</a> <span class="separator"> / </span> <span class="navigation-current">دیدار&zwnj;ها و بازدیدها</span> </div> </div> <div class="search-box col-lg-4 col-md-4 col-sm-12 col-xs-12 module50"> <div class="search-box-posts_50"> <div class="search-box-input form-group col-md-8 col-sm-8 col-lg-6 col-xs-6"> <div class="input-group input-group-sm"> <input type="text" class="form-control" id="txtWordSearch_50" placeholder="جستجو"> <span class="input-group-addon btn" id="btnSearchPosts_50"> <i class="fa fa-search"></i> </span> </div> </div> <div class="search-box-order form-group col-md-4 col-sm-4 col-lg-6 col-xs-6"> <button type="button" class="btn-sort btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <span> ترتیب بر اساس </span><span id="sp-sortby_50" class="text-primary" style="font-weight: bold;"> تاریخ </span> <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span> </button> <ul class="dropdown-menu" role="menu" id="panelSortItems_50"> <li class="active"><a href="#" data-sortitem="-1"> تاریخ  (نزولی)</a></li> <li><a href="#" data-sortitem="2">عنوان </a></li> <li><a href="#" data-sortitem="3">پدیدآورنده</a></li> <li><a href="#" data-sortitem="-4">تعداد بازدید</a></li> </ul> </div> </div> </div> </div>
+        </div>
+    <div class="container">
+        <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 spanel">
+       <div class="rbox"> <ul class="treeviewSiteMap treeview-tree" id="treeviewSiteMap_38" data-maxlevelopen="0" data-isallopen="0" data-currentnodeid="3803"> <li style="display: list-item; color: rgb(255, 0, 0);" data-id="3803" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-minus-square"></i></span> <a href="/Posts/3803">خانه</a> <ul data-level="1"> <li style="" data-id="3806" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-minus-square"></i></span> <a href="/Posts/3806">معرفی</a> <ul data-level="2"> <li style="display: list-item;" data-id="3845"> <a href="/Posts/3845">مسئولیت&zwnj;ها</a> </li> <li style="display: list-item;" data-id="3847"> <a href="/Posts/3847">مصاحبه&zwnj;ها</a> </li> </ul> </li> <li style="" data-id="3823" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-minus-square"></i></span> <a href="/Posts/3823">اخبار</a> <ul data-level="2"> <li style="display: list-item;" data-id="4937"> <a href="/Posts/4937">آستان حضرت عبدالعظیم (ع)</a> </li> <li style="display: list-item;" data-id="4936"> <a href="/Posts/4936">مؤسسه دارالحدیث</a> </li> <li style="display: list-item;" data-id="4939"> <a href="/Posts/4939">پژوهشگاه و دانشگاه قرآن و حدیث</a> </li> <li style="display: list-item;" data-id="4938"> <a href="/Posts/4938">اخبار درس&zwnj;ها</a> </li> <li style="display: list-item;" data-id="3811"> <a href="/Posts/3811">دیدار&zwnj;ها و بازدیدها</a> </li> <li style="display: list-item;" data-id="5419" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-plus-square"></i></span> <a href="/Posts/5419">مراسم و همایش</a> <ul data-level="3"> <li style="display: none;" data-id="5452"> <a href="/Posts/5452">جشنواره حدیثی کلینی</a> </li> </ul> </li> <li style="display: list-item;" data-id="5223"> <a href="/Posts/5223">اخبار نشر</a> </li> <li style="display: list-item;" data-id="4940"> <a href="/Posts/4940">سایر اخبار</a> </li> </ul> </li> <li style="" data-id="3807" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-minus-square"></i></span> <a href="/Posts/3807">آثار و تألیف&zwnj;ها</a> <ul data-level="2"> <li style="display: list-item;" data-id="3813" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-plus-square"></i></span> <a href="/Posts/3813">کتاب</a> <ul data-level="3"> <li style="display: none;" data-id="5992"> <a href="/Posts/5992">دانش&zwnj;نامه&zwnj;ها</a> </li> <li style="display: none;" data-id="5993"> <a href="/Posts/5993">حکمت&zwnj;نامه&zwnj;ها</a> </li> <li style="display: none;" data-id="5994"> <a href="/Posts/5994">فرهنگ&zwnj;نامه&zwnj;ها</a> </li> <li style="display: none;" data-id="6000"> <a href="/Posts/6000">تاریخ و سیره</a> </li> <li style="display: none;" data-id="5998"> <a href="/Posts/5998">تاریخ معاصر</a> </li> <li style="display: none;" data-id="5995"> <a href="/Posts/5995">کلام و عقاید</a> </li> <li style="display: none;" data-id="5996"> <a href="/Posts/5996">عبادات، ادعیه و زیارات</a> </li> <li style="display: none;" data-id="5997"> <a href="/Posts/5997">موضوعات اجتماعی</a> </li> <li style="display: none;" data-id="5999"> <a href="/Posts/5999">موضوعات دیگر</a> </li> </ul> </li> <li style="display: list-item;" data-id="3814"> <a href="/Posts/3814">مقاله</a> </li> <li style="display: list-item;" data-id="3815"> <a href="/Posts/3815">سایر</a> </li> </ul> </li> <li style="" data-id="3809" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-minus-square"></i></span> <a href="/Posts/3809">سخنرانی&zwnj;ها</a> <ul data-level="2"> <li style="display: list-item;" data-id="6009"> <a href="/Posts/6009">سال ۱۳۹۸</a> </li> <li style="display: list-item;" data-id="5985"> <a href="/Posts/5985">سال ۱۳۹۷</a> </li> <li style="display: list-item;" data-id="4934"> <a href="/Posts/4934">سال ۱۳۹۶</a> </li> <li style="display: list-item;" data-id="5421"> <a href="/Posts/5421">سال ۱۳۹۵</a> </li> <li style="display: list-item;" data-id="5293"> <a href="/Posts/5293">سال ۱۳۹۴</a> </li> <li style="display: list-item;" data-id="3836"> <a href="/Posts/3836">سال ۱۳۹۳</a> </li> <li style="display: list-item;" data-id="3838"> <a href="/Posts/3838">سال ۱۳۹۲</a> </li> <li style="display: list-item;" data-id="3839"> <a href="/Posts/3839">سال ۱۳۹۱</a> </li> <li style="display: list-item;" data-id="3841"> <a href="/Posts/3841">سال ۱۳۸۹</a> </li> <li style="display: list-item;" data-id="4933"> <a href="/Posts/4933">سال ۱۳۷۲</a> </li> </ul> </li> <li style="" data-id="3808" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-minus-square"></i></span> <a href="/Posts/3808">درس&zwnj;ها</a> <ul data-level="2"> <li style="display: list-item;" data-id="3816" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-plus-square"></i></span> <a href="/Posts/3816">تفسیر قرآن</a> <ul data-level="3"> <li style="display: none;" data-id="5822"> <a href="/Posts/5822">سال ۱۳۹۶</a> </li> <li style="display: none;" data-id="5801"> <a href="/Posts/5801">انس با قرآن (رمضان ۱۳۹۶)</a> </li> <li style="display: none;" data-id="5532"> <a href="/Posts/5532">انس با قرآن (رمضان ۱۳۹۵)</a> </li> <li style="display: none;" data-id="5400"> <a href="/Posts/5400">سال ۱۳۹۵</a> </li> <li style="display: none;" data-id="5162"> <a href="/Posts/5162">سال ۱۳۹۴</a> </li> <li style="display: none;" data-id="3826"> <a href="/Posts/3826">سال ۱۳۹۳</a> </li> <li style="display: none;" data-id="3827"> <a href="/Posts/3827">سال ۱۳۹۲</a> </li> <li style="display: none;" data-id="3828"> <a href="/Posts/3828">سال ۱۳۹۱</a> </li> <li style="display: none;" data-id="3829"> <a href="/Posts/3829">سال ۱۳۹۰</a> </li> <li style="display: none;" data-id="3830"> <a href="/Posts/3830">سال ۱۳۸۹</a> </li> </ul> </li> <li style="display: list-item;" data-id="5843"> <a href="/Posts/5843">معارف قرآن</a> </li> <li style="display: list-item;" data-id="3817" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-plus-square"></i></span> <a href="/Posts/3817">خارج فقه</a> <ul data-level="3"> <li style="display: none;" data-id="5348"> <a href="/Posts/5348">حج</a> </li> <li style="display: none;" data-id="6003"> <a href="/Posts/6003">مسائل پزشکی</a> </li> <li style="display: none;" data-id="5988"> <a href="/Posts/5988">نماز و روزه کثیرالسفر ۱۳۹۷</a> </li> <li style="display: none;" data-id="3821"> <a href="/Posts/3821">خمس</a> </li> <li style="display: none;" data-id="5347"> <a href="/Posts/5347">انفال - ۱۳۹۴</a> </li> <li style="display: none;" data-id="3820" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-plus-square"></i></span> <a href="/Posts/3820">نماز جمعه</a> <ul data-level="4"> <li style="display: none;" data-id="3868"> <a href="/Posts/3868">سال تحصیلی ۹۳ - ۹۲</a> </li> <li style="display: none;" data-id="3867"> <a href="/Posts/3867">سال تحصیلی ۹۲ - ۹۱</a> </li> </ul> </li> </ul> </li> <li style="display: list-item;" data-id="5986"> <a href="/Posts/5986">مباحث رجال و درایه</a> </li> <li style="display: list-item;" data-id="3822" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-plus-square"></i></span> <a href="/Posts/3822">شرح حدیث</a> <ul data-level="3"> <li style="display: none;" data-id="5372"> <a href="/Posts/5372">احادیث آغازین درس خارج فقه</a> </li> <li style="display: none;" data-id="3856"> <a href="/Posts/3856">شرح زیارت جامعه</a> </li> <li style="display: none;" data-id="3855"> <a href="/Posts/3855">دعای مکارم الاخلاق</a> </li> <li style="display: none;" data-id="5727" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-plus-square"></i></span> <a href="/Posts/5727">حکمت&zwnj;نامه حضرت عبدالعظیم(ع)</a> <ul data-level="4"> <li style="display: none;" data-id="5747"> <a href="/Posts/5747">حکمت&zwnj;های اعتقادی</a> </li> <li style="display: none;" data-id="5748"> <a href="/Posts/5748">حکمت&zwnj;های عبادی</a> </li> <li style="display: none;" data-id="5749"> <a href="/Posts/5749">محاسن اخلاق و رفتار</a> </li> </ul> </li> </ul> </li> <li style="display: list-item;" data-id="5864"> <a href="/Posts/5864">بشارت (مباحث مهدویت)</a> </li> <li style="display: list-item;" data-id="3818"> <a href="/Posts/3818">اخلاق</a> </li> </ul> </li> <li style="" data-id="3843"> <a href="/Posts/3843">یادداشت&zwnj;ها و بیان&zwnj;ها</a> </li> <li style="" data-id="3810" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-minus-square"></i></span> <a href="/Posts/3810">خاطره&zwnj;ها</a> <ul data-level="2"> <li style="display: list-item;" data-id="3831"> <a href="/Posts/3831">کرامات و عنایات اهل بیت (ع)</a> </li> <li style="display: list-item;" data-id="5989"> <a href="/Posts/5989">تشرفات</a> </li> <li style="display: list-item;" data-id="3832"> <a href="/Posts/3832">انقلاب اسلامی در ایران</a> </li> <li style="display: list-item;" data-id="3833"> <a href="/Posts/3833">شهدا، جانبازان و آزادگان</a> </li> <li style="display: list-item;" data-id="3834"> <a href="/Posts/3834">خاطراتی از حج</a> </li> <li style="display: list-item;" data-id="3835"> <a href="/Posts/3835">خاطرات متنوّع</a> </li> </ul> </li> <li style="" data-id="3812" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-plus-square"></i></span> <a href="/Posts/3812">نگارخانه</a> <ul data-level="2"> <li style="display: none;" data-id="3893" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-plus-square"></i></span> <a href="/Posts/3893">همراه رهبر</a> <ul data-level="3"> </ul> </li> <li style="display: none;" data-id="3891" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-plus-square"></i></span> <a href="/Posts/3891">دیدار و بازدید&zwnj;ها</a> <ul data-level="3"> <li style="display: none;" data-id="6006"> <a href="/Posts/6006">۱۳۹۸</a> </li> <li style="display: none;" data-id="4983"> <a href="/Posts/4983">۱۳۹۷</a> </li> <li style="display: none;" data-id="5794"> <a href="/Posts/5794">۱۳۹۶</a> </li> <li style="display: none;" data-id="5401"> <a href="/Posts/5401">۱۳۹۵</a> </li> <li style="display: none;" data-id="5156"> <a href="/Posts/5156">۱۳۹۴</a> </li> <li style="display: none;" data-id="5000"> <a href="/Posts/5000">۱۳۹۳</a> </li> <li style="display: none;" data-id="5013"> <a href="/Posts/5013">۸۵ - ۸۴</a> </li> <li style="display: none;" data-id="5003"> <a href="/Posts/5003">۱۳۹۲</a> </li> <li style="display: none;" data-id="5004"> <a href="/Posts/5004">۹۰ - ۹۱</a> </li> </ul> </li> <li style="display: none;" data-id="3918" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-plus-square"></i></span> <a href="/Posts/3918">نشست، سخنرانی</a> <ul data-level="3"> <li style="display: none;" data-id="6008"> <a href="/Posts/6008">۱۳۹۸</a> </li> <li style="display: none;" data-id="6004"> <a href="/Posts/6004">۱۳۹۷</a> </li> <li style="display: none;" data-id="4984"> <a href="/Posts/4984">۱۳۹۶</a> </li> <li style="display: none;" data-id="3919"> <a href="/Posts/3919">۱۳۹۵</a> </li> </ul> </li> <li style="display: none;" data-id="3892" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-plus-square"></i></span> <a href="/Posts/3892">مراسم&zwnj; و همایش&zwnj;</a> <ul data-level="3"> <li style="display: none;" data-id="6007"> <a href="/Posts/6007">۱۳۹۸</a> </li> <li style="display: none;" data-id="5991"> <a href="/Posts/5991">۱۳۹۷</a> </li> <li style="display: none;" data-id="4985"> <a href="/Posts/4985">۱۳۹۶</a> </li> <li style="display: none;" data-id="5399"> <a href="/Posts/5399">۱۳۹۵</a> </li> <li style="display: none;" data-id="5157"> <a href="/Posts/5157">۱۳۹۴</a> </li> <li style="display: none;" data-id="5001"> <a href="/Posts/5001">۱۳۹۳</a> </li> <li style="display: none;" data-id="5005"> <a href="/Posts/5005">۱۳۹۲</a> </li> <li style="display: none;" data-id="5006"> <a href="/Posts/5006">۹۱ - ۹۰</a> </li> <li style="display: none;" data-id="5007"> <a href="/Posts/5007">۸۹ - ۸۸</a> </li> <li style="display: none;" data-id="5010"> <a href="/Posts/5010">۸۳ - ۸۲</a> </li> <li style="display: none;" data-id="5546"> <a href="/Posts/5546">۱۳۷۴</a> </li> </ul> </li> <li style="display: none;" data-id="3917" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-plus-square"></i></span> <a href="/Posts/3917">سفرها</a> <ul data-level="3"> <li style="display: none;" data-id="5017"> <a href="/Posts/5017">۱۳۹۳</a> </li> </ul> </li> <li style="display: none;" data-id="4970" class="tree-branch"><span class="iconIChildren tree-indicator"><i class="fa fa-plus-square"></i></span> <a href="/Posts/4970">حج و عمره</a> <ul data-level="3"> <li style="display: none;" data-id="4971"> <a href="/Posts/4971">مدینه منوره</a> </li> <li style="display: none;" data-id="4987"> <a href="/Posts/4987">مکه مکرمه</a> </li> </ul> </li> <li style="display: none;" data-id="4986"> <a href="/Posts/4986">مصاحبه و گفتگو</a> </li> <li style="display: none;" data-id="5552"> <a href="/Posts/5552">تقدیرنامه&zwnj;ها</a> </li> </ul> </li> </ul> </li> </ul> </div> 
+    </div>
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 lpanel">
+        
+        <div class="col-sm-12 mb-3 listnews">
+            <div class="row align-items-center">
+            <div class="col-lg-3 col-md-3 col-sm-4 listright"><a href="#">
+                <figure>
+                <img  class="w-100" src="images/leader.jpg" alt="">
+            </figure>
+            </a> </div>
+            <div class="col-sm-12 col-lg-9 col-md-8 listcenter pr-0">
+                <h2><a href="/post/66652">خدا با ما است و پیروزی نیز متعلق به ملت ایران است</a></h2>
+                <p>رهبر معظم انقلاب در دیدار پرستاران سراسر کشور: ما معتقدیم که خدا با ما است و پیروزی نیز متعلق به ملت ایران است. همچنین معتقدیم فردای این کشور بمراتب بهتر از امروز خواهد بود، همان‌گونه که امروز کشور بهتر از دیروز است.</p>
+            </div>
+            <div class="col-sm-12 listleft justify-content-around d-flex align-items-center">
+                <div class="listpro"><i class="fa fa-calendar"></i> ۱۳۹۸/۱۰/۰۹ </div>
+                <div class="listpro2"><i class="fa fa-eye"></i> 3558 </div><a href="/postfile/66652/attach/8881.mp3"> <i
+                    class="fa fa-download" aria-hidden=""></i> دانلود </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 mb-3 listnews">
+        <div class="row align-items-center">
+        <div class="col-lg-3 col-md-3 col-sm-4 listright"><a href="#">
+            <figure>
+            <img  class="w-100" src="images/leader.jpg" alt="">
+        </figure>
+        </a> </div>
+        <div class="col-sm-12 col-lg-9 col-md-8 listcenter pr-0">
+            <h2><a href="/post/66652">خدا با ما است و پیروزی نیز متعلق به ملت ایران است</a></h2>
+            <p>رهبر معظم انقلاب در دیدار پرستاران سراسر کشور: ما معتقدیم که خدا با ما است و پیروزی نیز متعلق به ملت ایران است. همچنین معتقدیم فردای این کشور بمراتب بهتر از امروز خواهد بود، همان‌گونه که امروز کشور بهتر از دیروز است.</p>
+        </div>
+        <div class="col-sm-12 listleft justify-content-around d-flex align-items-center">
+            <div class="listpro"><i class="fa fa-calendar"></i> ۱۳۹۸/۱۰/۰۹ </div>
+            <div class="listpro2"><i class="fa fa-eye"></i> 3558 </div><a href="/postfile/66652/attach/8881.mp3"> <i
+                class="fa fa-download" aria-hidden=""></i> دانلود </a>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+    </div>   
+    <footer class="footer pt-4">
+        <div class="container container_footer">
+            <div class="row">
+                    <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 text-center">
+                            <div class="logo-dailyhadith mb-3  mt-3">
+                                    <a href="#"  target="_blank">
+                                        <img src="images/dailyhadith.png" alt="مؤسسه دارالحدیث" >
+                                    </a>
+                                </div>
+        
+                            
+                                    <p class="plogo">
+                                            <a href="#"  target="_blank">
+                                           سامانه هوشمند حدیث روز
+                                        </a>
+                                           </p> 
+                                        
+                                       </div>
+                        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 text-center">
+                                <div class="logo-mizan mb-3">
+                                        <a href="#" target="_blank">
+                                            <img src="images/mizan.png" alt="مؤسسه دارالحدیث" >
+                                        </a>
+                                    </div>
+            
+                                
+                                        <p class="plogo">
+                                                <a href="#"  target="_blank">
+                                                جستجوگر حدیثی میزان
+                                                </a>
+                                               </p>
+                                            
+                                           </div>
+                                <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 culmfoot1">
+                            
+                                      
+                                                <div class="list-group">
+                                                        <a href="/post/65533" class="list-group-item list-group-item-action">
+                                                            <i class="fa fa-window-minimize" aria-hidden="true"></i>مؤسسه دارالحدیث</a>
+                                                    <a href="/post/66581" class="list-group-item list-group-item-action">
+                                                    <i class="fa fa-window-minimize" aria-hidden="true"></i>تماس با ما</a>
+                                                    <a href="/post/66578" class="list-group-item list-group-item-action">
+                                                    <i class="fa fa-window-minimize" aria-hidden="true"></i>خبرخوان پایگاه</a>
+                                                    <a href="/post/65502" class="list-group-item list-group-item-action">
+                                                        <i class="fa fa-window-minimize" aria-hidden="true"></i>معرفی پایگاه</a>
+                                                        <a href="/post/66574" class="list-group-item list-group-item-action">
+                                                        <i class="fa fa-window-minimize" aria-hidden="true"></i>نقشه پایگاه</a>
+                                                    
+                                                    
+                                                   </div>
+
+                                                  
+                                           
+                                            
+                                        </div>
+                                        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 culmfoot1">
+                            
+                                      
+                                                <div class="list-group">
+                                                        <a href="/post/65533" class="list-group-item list-group-item-action">
+                                                            <i class="fa fa-window-minimize" aria-hidden="true"></i>مؤسسه دارالحدیث</a>
+                                                    <a href="/post/66581" class="list-group-item list-group-item-action">
+                                                    <i class="fa fa-window-minimize" aria-hidden="true"></i>تماس با ما</a>
+                                                    <a href="/post/66578" class="list-group-item list-group-item-action">
+                                                    <i class="fa fa-window-minimize" aria-hidden="true"></i>خبرخوان پایگاه</a>
+                                                    <a href="/post/65502" class="list-group-item list-group-item-action">
+                                                        <i class="fa fa-window-minimize" aria-hidden="true"></i>معرفی پایگاه</a>
+                                                        <a href="/post/66574" class="list-group-item list-group-item-action">
+                                                        <i class="fa fa-window-minimize" aria-hidden="true"></i>نقشه پایگاه</a>
+                                                    
+                                                    
+                                                   </div>
+
+                                                  
+                                           
+                                            
+                                        </div>
+                                        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center">
+                                                <div class="mb-3 logo-darolhadith">
+                                                        <a href="#">
+                                                            <img src="images/darolhadith_100.png" alt="مؤسسه دارالحدیث" >
+                                                        </a>
+                                                    </div>
+                            
+                                                
+                                                        <p class="paddres">
+                                                                آدرس: قم، بزرگراه امام علی (ع)، کیلومتر5
+                                                                <br>
+                                                                مؤسسه علمی فرهنگی دارالحدیث
+                                                            </p>
+                                                            <div class="spsh mt-4">
+                                                                    <span class="apshdiv">
+                                                                    <a href="http://sapp.ir/hadithnet" target="_blank" data-toggle="tooltip" data-placement="top" title="معارف حدیث در «سروش»">
+                                                                    <img src="http://hadith.net/Image.aspx?t=bank&amp;n=Icon/sorush.png&amp;w=20&amp;q=5"></a></span>
+                                                                    <span class="apshdiv">
+                                                                    <a href="https://eitaa.com/hadithnet" target="_blank">
+                                                                    <img src="http://hadith.net/Image.aspx?t=bank&amp;n=Icon/eitaa_hadithnet.png&amp;w=20&amp;q=5" data-toggle="tooltip" data-placement="top" title="معارف حدیث در «ایتا»"></a></span>
+                                                                    <span class="apshdiv">
+                                                                    <a href="https://profile.igap.net/hadithnet" target="_blank">
+                                                                    <img src="http://hadith.net/Image.aspx?t=bank&amp;n=Icon/igap.png&amp;w=20&amp;q=5" data-toggle="tooltip" data-placement="top" title="معارف حدیث در «آی گپ»"></a></span>
+                                                                    <span class="apshdiv">
+                                                                    <a href="https://www.instagram.com/hadithnet/" target="_blank">
+                                                                    <img src="http://hadith.net/Image.aspx?t=bank&amp;n=Icon/inst.png&amp;w=20&amp;q=5" data-toggle="tooltip" data-placement="top" title="حدیث نت در «اینستاگرام»"></a></span>
+                                                    
+                                                                    </div>
+                                                           </div>
+                                                    
+                                                    
+                                                </div>
+
+            </div>
+       
+
+        <div class="footer-copyright text-center py-2 mt-3">
+            <div class="container">
+            © تمامی حقوق مادی و معنوی این پایگاه به مؤسسه علمی فرهنگی دارالحدیث تعلق دارد.
+        </div>
+              </div>
+    </footer>
+    <a id="back-to-top" href="#" class="btn btn-primary back-to-top" role="button" title="ابتدای صفحه" data-toggle="tooltip" data-placement="top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+    <!-- /.container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/waves.min.js"></script>
+    <script src="js/initializers.js"></script>
+    <script src="js/tabslet.js"></script>
+    <script src="js/wow.min.js"></script>
+   
+    <script>
+        /*--/ Navbar Menu Reduce /--*/
+        $(window).trigger('scroll');
+        $(window).bind('scroll', function () {
+            var pixels = 150;
+            var top = 1200;
+            if ($(window).scrollTop() > pixels) {
+                $('.navbar-default').addClass('navbar-reduce animated fadeInDown');
+                $('.navbar-default').removeClass('navbar-trans');
+            }
+            else {
+                $('.navbar-default').addClass('navbar-trans');
+                $('.navbar-default').removeClass('navbar-reduce animated fadeInDown');
+            }
+            if ($(window).scrollTop() > top) {
+                $('.scrolltop-mf').fadeIn(1000, "easeInOutExpo");
+            }
+            else {
+                $('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
+            }
+        });
+    </script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30
+            , centeredSlides: true
+            , loop: true
+            , effect: 'fade'
+            , autoplay: {
+                delay: 2500
+                , disableOnInteraction: false
+                ,
+            }
+            , pagination: {
+                el: '.swiper-pagination'
+                , clickable: true
+                ,
+            }
+            , navigation: {
+                nextEl: '.swiper-button-next'
+                , prevEl: '.swiper-button-prev'
+                ,
+            }
+            ,
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".vt a").mouseover(function () {
+                $(this).tab('show');
+            });
+        });
+
+        $(function () {
+            $('[data-toggle="modal"]').click(function () {
+                var modalId = $(this).data('target');
+                $(modalId).modal('show');
+
+            });
+
+        });
+        
+        $(window).scroll(function() {
+    if ($(this).scrollTop() > 170){  
+        $('.logo').addClass("stickylogo animated fadeInDown");
+        $(".logo img").remove();
+        $('.logo').append("<img src='images/logohadithnet2.png' />");
+        $('.srchinput').addClass("stickysrch collapse");
+        $('.rowhead').addClass("stikyhead");
+        $('.btsrch').addClass("stickybt animated fadeInDown");
+        $('.srchinput').attr('id', 'demo');
+       
+    }
+    else{
+        $('.logo').removeClass("stickylogo animated fadeInDown");
+        $(".logo img").remove();
+        $('.logo').append("<img src='images/logohadithnet.png' />");
+        $('.srchinput').removeClass("stickysrch collapse");
+        $('.rowhead').removeClass("stikyhead");
+        $('.btsrch').removeClass("stickybt animated fadeInDown");
+        $('.srchinput').attr('id', '');
+    }
+});
+
+
+$(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+            // scroll body to 0px on click
+            $('#back-to-top').click(function () {
+                $('#back-to-top').tooltip('hide');
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+            $('#back-to-top').tooltip('show');
+
+        });
+        
+       $(document).ready(function () {
+        
+        window.onscroll = function() {
+  ScrollIndicator()
+};
+
+function ScrollIndicator() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("headerBar").style.width = scrolled + "%";
+  console.log(Math.round(scrolled * 100) / 100);
+}
+           });
+    </script>
+</body>
+
+</html>

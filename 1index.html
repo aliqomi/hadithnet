@@ -1,0 +1,1509 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>حدیث نت</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-rtl.css" rel="stylesheet" />
+    <link href="css/waves.css" rel="stylesheet" />
+    <link href="css/swiper.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="css/owl.theme.default.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                
+                    <a class="navbar-brand sticky-top logo" href="#"> <img src="images/logohadithnet.png" alt="" class=""> </a>
+             
+                
+                <div class="hadithdaily align-self-center">
+                    <div data-toggle="modal" data-target="#hadithModal">
+                        <p class="HadithRavi"> پیامبر اکرم صلی الله علیه و آله </p>
+                        <p class="HadithTransLate"> محبوب ترين چيز نزد خداى متعال، آن است كه ببيند مرد، با زن و فرزندانش
+                            بر سر يك سفره، غذا مى خورند. </p>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="hadithModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header justify-content-between">
+                                    <h5 class="modal-title" id="exampleModalLabel">حدیث روز</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="HadithRavi"> پیامبر اکرم صلی الله علیه و آله </p>
+                                    <p class="HadithText"> <a href="http://dailyhadith.ir" target="_blank" class="Link"
+                                            amino-styles="transition: all 0.6s ease-in-out 0s;text-decoration: none;
+ color: red;
+ outline: 0;outline: 0 !important;">
+                                            أحَبُّ شَيءٍ إلَى اللّهِ تَعالى أن يَرَى الرَّجُلَ مَعَ امرَأَتِهِ ووُلدِهِ
+                                            عَلى مائِدَةٍ يَأكُلونَ .
+                                        </a> </p>
+                                    <p class="HadithTransLate"> محبوب ترين چيز نزد خداى متعال، آن است كه ببيند مرد، با
+                                        زن و فرزندانش بر سر يك سفره، غذا مى خورند. </p>
+                                    <p class="HadithAddress"> تنبيه الغافلين : ص ۳۴۳ ح ۴۹۸ </p>
+
+                                </div>
+                                <div class="modal-footer justify-content-between">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">بستن</button>
+                                    <a class="btn btn-primary Subscribe"
+                                        href="http://www.dailyhadith.ir/account/register" target="_blank" amino-styles="transition: all 0.6s ease-in-out 0s;text-decoration: none;
+ color: red;
+ outline: 0;outline: 0 !important;"> <span class="right" amino-styles="float: right;">ثبت نام حدیث روز</span> </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="srch align-self-center">
+                        <ul class="datehead">
+                                <div class="module64">
+                                    <li><a href="#">العربیة</a></li>
+                                    <li><a href="#">English</a></li>
+                                    
+                                </div>
+                            </ul>
+                        <div class="srchinput sticky-top">
+                            <div id="panelSimpleSearchModule" class="search-box form-group simplesearch" style="margin: 0 auto;" data-subsite="">
+                                <div class="input-group input-group-sm">
+                                    <input class="form-control" id="txtsearch_SimpleSearch" placeholder="جستجو ..." onkeypress="EnterTest_SimpleSearch(event);" type="text" value="">
+                                    <input class="form-control" id="txtperson_SimpleSearch" placeholder="نام مولف" onkeypress="EnterTest_Person_SimpleSearch(event);" type="text" value="" style="display: none;">
+                                    <div class="input-group-addon btn" onclick="checkSearchWord_SimpleSearch();">
+                                        <i class="fa fa-search"></i></div>
+                                </div>
+                            </div>
+                            <script>sourceType=0;sourceID=0</script>
+                        </div>
+                        
+                    </div>
+                    
+
+
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-default navbar-expand-sm sticky-top navbar-trans">
+        <div class="container conttop">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto mr-auto">
+                    <li class="nav-item"> <a class="nav-link" href="#">احادیث
+                            <span class="sr-only">(current)</span>
+                        </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">معارف حدیث</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">متون حدیث</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">علوم حدیث</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">شرح حدیث</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">خدمات حدیث</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">دارالحدیث</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="section1">
+        <div class="container">
+            <div class="row rowslider">
+                <div class="col-12 col-md-7 col-sm-7 slidhome">
+                    <div class="slidbox">
+                        <!-- Swiper -->
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#"> <img src="images/%D8%B5%D9%84%D9%87-%D8%B1%D8%AD%D9%85.jpg" /> </a>
+                                    <div class="caption"><a href="#">صله رحم در روایات</a></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#"> <img src="images/%D9%85%D8%B3%D8%A7%D9%81%D8%B1%D8%AA2.jpg" /> </a>
+                                    <div class="caption"><a href="#">دعا در روایات</a></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#"> <img src="images/z.jpg" /> </a>
+                                    <div class="caption"><a href="#">شهادت حضرت زینب سلام الله علیها</a></div>
+                                </div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                        <!-- Swiper JS -->
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 col-sm-5 newhome">
+                    <div class="newbox">
+                        <div class="newtitr"> <img alt="" src="images/eslim1.jpg" class="newimg"> تــازه هــای
+                            پــایــگــاه </div>
+                        <div class="newlist">
+                            <div class="list-group"> <a href="/post/65506"
+                                    class="list-group-item list-group-item-action"><i class="fa fa-pencil-square-o"></i>
+                                    ویژه‌نامه امام جواد سلام الله علیه </a> <a href="/post/65502"
+                                    class="list-group-item list-group-item-action"><i class="fa fa-check-square-o"></i>
+                                    احادیث امام جواد علیه السلام </a> <a href="/post/65501"
+                                    class="list-group-item list-group-item-action"><i class="fa fa-check-square-o"></i>
+                                    مسابقات فرهنگی دعای عرفه و عید غدیر
+                                </a> <a href="/post/65501" class="list-group-item list-group-item-action"><i
+                                        class="fa fa-check-square-o"></i>
+                                    دومین اجلاسیه فعالان مهدوی سراسر کشور در مشهد مقدس برگزار می‌شود
+                                </a> <a href="/post/65501" class="list-group-item list-group-item-action"><i
+                                        class="fa fa-check-square-o"></i>
+                                    دحو الارض؛ لحظه‌ای عظیم و عزیز در تاریخ هستی
+                                </a> <a href="/post/65501" class="list-group-item list-group-item-action"><i
+                                        class="fa fa-check-square-o"></i>
+                                    اولین طلاق خلع
+                                </a> <a href="/post/65501" class="list-group-item list-group-item-action"><i
+                                        class="fa fa-check-square-o"></i>
+                                    اولین طلاق خلع
+                                </a> <a href="/post/65501" class="list-group-item list-group-item-action"><i
+                                        class="fa fa-check-square-o"></i>
+                                    اولین طلاق خلع
+                                </a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section2 mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <ul class="nav nav-pills mb-3 navnews" role="tablist"> <img alt=""
+                            src="images/eslim1.jpg" class="newsimg">
+                        <li class="nav-item"> <a class="nav-link active" id="pills-home-tab" data-toggle="pill"
+                                href="#pills-tab1" role="tab" aria-controls="pills-tab1" aria-selected="true">تازه های
+                                اخبار</a> </li>
+                        <li class="nav-item"> <a class="nav-link" id="pills-profile-tab" data-toggle="pill"
+                                href="#pills-tab2" role="tab" aria-controls="pills-tab2" aria-selected="false">اخبار
+                                نشر</a> </li>
+                        <li class="nav-item"> <a class="nav-link" id="pills-contact-tab" data-toggle="pill"
+                                href="#pills-tab3" role="tab" aria-controls="pills-tab3" aria-selected="false">اخبار
+                                پژوهش</a> </li>
+                    </ul>
+                    <div class="tab-content" id="">
+                        <div class="tab-pane fade show active" id="pills-tab1" role="tabpanel"
+                            aria-labelledby="pills-tab1">
+                            <div class="tabs_hover2 divtab">
+                                <ul class="horiz">
+                                    <li class="active"><a href="/post/66562" id="#tab-66562">مراسم بزرگداشت روز مباهله
+                                            در بارگاه ملکوتی حضرت عبدالعظیم(ع)</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-66562">
+                                    <a href="/post/66562" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/66562/image?refresh=8/25/2019 8:05:21 AM&amp;w=263&amp;h=162"
+                                            alt="مراسم بزرگداشت روز مباهله در بارگاه ملکوتی حضرت عبدالعظیم(ع)">
+                                        <div class="caption">
+                                            <p>مراسم بزرگداشت سالروز مباهله پیامبر خاتم (ص) در بارگاه ملکوتی حضرت
+                                                عبدالعظیم علیه السّلام برگزار می گردد.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/66557" id="#tab-66557">مرحوم آیت الله حائری با وجود
+                                            شخصیت علمی ممتاز بسیار متواضع بود</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-66557" style="display: none;">
+                                    <a href="/post/66557" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/66557/image?refresh=7/25/2019 1:11:57 PM&amp;w=263&amp;h=162"
+                                            alt="مرحوم آیت الله حائری با وجود شخصیت علمی ممتاز بسیار متواضع بود">
+                                        <div class="caption">
+                                            <p>تولیت آستان مقدس حضرت عبدالعظیم حسنی(ع) با بیان اینکه مرحوم آیت الله
+                                                حائری شخصیت اخلاقی برجسته ای داشتند، گفت: ایشان با وجود ...</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/66554" id="#tab-66554">پیکر آیت الله حائری در حرم حضرت
+                                            معصومه(س) به خاک سپرده شد</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-66554" style="display: none;">
+                                    <a href="/post/66554" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/66554/image?refresh=7/20/2019 9:15:26 AM&amp;w=263&amp;h=162"
+                                            alt="پیکر آیت الله حائری در حرم حضرت معصومه(س) به خاک سپرده شد">
+                                        <div class="caption">
+                                            <p>پیکر رئیس موسسه دایره المعارف فقه اسلامی امروز جمعه با حضور جمعی از طلاب،
+                                                روحانیان و فضلای حوزه و قشرهای مختلف مردم قم تشییع ...</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/65552" id="#tab-65552">کتاب «پرتویی از تفسیر
+                                            اهل&zwnj;بیت (ع)» در قم رونمایی شد</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-65552" style="display: none;">
+                                    <a href="/post/65552" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/65552/image?refresh=7/18/2019 12:30:29 PM&amp;w=263&amp;h=162"
+                                            alt="کتاب «پرتویی از تفسیر اهل&zwnj;بیت (ع)» در قم رونمایی شد">
+                                        <div class="caption">
+                                            <p>کتاب ۲ جلدی «پرتویی از تفسیر اهل&zwnj;بیت (ع)» روز یکشنبه با حضور
+                                                آیت&zwnj;الله محمدی ری&zwnj;شهری نویسنده این کتاب در مؤسسه علمی پژوهشی
+                                                ...</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/65553" id="#tab-65553">آغاز حرکتی در جهت مرجعیت علمی اهل
+                                            بیت در تفسیر قرآن</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-65553" style="display: none;">
+                                    <a href="/post/65553" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/65553/image?refresh=7/28/2019 9:04:46 AM&amp;w=263&amp;h=162"
+                                            alt="آغاز حرکتی در جهت مرجعیت علمی اهل بیت در تفسیر قرآن">
+                                        <div class="caption">
+                                            <p>سومین همایش «سیره امام رضا (ع)؛ آموزه&zwnj;ها و کارکردها» با حضور
+                                                آیت&zwnj;الله محمدی ری&zwnj;شهری در مؤسسه آموزشی و پژوهشی امام خمینی
+                                                (ره) ...</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/65553" id="#tab-65553">آغاز حرکتی در جهت مرجعیت علمی اهل
+                                            بیت در تفسیر قرآن</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-65553" style="display: none;">
+                                    <a href="/post/65553" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/65553/image?refresh=7/28/2019 9:04:46 AM&amp;w=263&amp;h=162"
+                                            alt="آغاز حرکتی در جهت مرجعیت علمی اهل بیت در تفسیر قرآن">
+                                        <div class="caption">
+                                            <p>سومین همایش «سیره امام رضا (ع)؛ آموزه&zwnj;ها و کارکردها» با حضور
+                                                آیت&zwnj;الله محمدی ری&zwnj;شهری در مؤسسه آموزشی و پژوهشی امام خمینی
+                                                (ره) ...</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/65553" id="#tab-65553">آغاز حرکتی در جهت مرجعیت علمی اهل
+                                            بیت در تفسیر قرآن</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-65553" style="display: none;">
+                                    <a href="/post/65553" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/65553/image?refresh=7/28/2019 9:04:46 AM&amp;w=263&amp;h=162"
+                                            alt="آغاز حرکتی در جهت مرجعیت علمی اهل بیت در تفسیر قرآن">
+                                        <div class="caption">
+                                            <p>سومین همایش «سیره امام رضا (ع)؛ آموزه&zwnj;ها و کارکردها» با حضور
+                                                آیت&zwnj;الله محمدی ری&zwnj;شهری در مؤسسه آموزشی و پژوهشی امام خمینی
+                                                (ره) ...</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-tab2" role="tabpanel" aria-labelledby="pills-tab2">تب 2
+                        </div>
+                        <div class="tab-pane fade" id="pills-tab3" role="tabpanel" aria-labelledby="pills-tab3">تب 3
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <ul class="nav nav-pills mb-3 navnews"> <img alt="" src="images/eslim1.jpg" class="newsimg2">
+                        <li class="nav-item"> <a class="nav-link active">حدیث ایام</a> </li>
+                    </ul>
+                    <div class="boxayyam">
+                        <div class="mayyam">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h3>
+                                        <a href="#">
+                                            ولادت امام رضا علیه السلام
+                                        </a>
+                                    </h3>
+                                    <p> حضرت امام علي بن موسي الرضا(ع) در مدينه‏ ي منوره به دنيا آمد.</p>
+                                </div>
+                                <a href="#"> <img src="images/leader.jpg" alt="" class="mr-3"></a>
+                            </div>
+                        </div>
+                        <div class="row rowayyam">
+                            <div class="col-lg-6 col-md-3 col-sm-6 ayyam pl-0">
+                                <p class="payyam"> <i class="fa fa-calendar" aria-hidden="true"></i> مناسبت&zwnj;های
+                                    ذیحجه </p>
+                                <div class="liayyam"> <i class="fa fa-circle-o" aria-hidden="true"></i> <a href="#">
+                                        روز خانواده (نزول سوره&rlm; ي دهر در شأن ...
+                                    </a> </div>
+                                <div class="liayyam"> <i class="fa fa-circle-o" aria-hidden="true"></i>
+                                    <a href="post/53655/%d8%b1%d9%88%d8%b2-%d9%85%d8%a8%d8%a7%d9%87%d9%84%d9%87/"
+                                        target="_blank" data-toggle="tooltip" data-placement="top"
+                                        title="24 ذیحجه، روز مباهله رسول خدا صلی الله علیه و آله با ترسايان نجران"
+                                        class="hover_color_darkgreen" amino-styles="transition: all 0.6s ease-in-out 0s;text-decoration: none;
+ color: red;
+ outline: 0;outline: 0 !important;"> <span class="" style="line-height:16px;">روز مباهله</span> </a>
+                                </div>
+                                <div class="liayyam"> <i class="fa fa-circle-o" aria-hidden="true"></i>
+                                    <a href="post/69033/%d9%88%d9%84%d8%a7%d8%af%d8%aa-%d8%a7%d9%85%d8%a7%d9%85-%d9%85%d9%88%d8%b3%d9%8a-%d9%83%d8%a7%d8%b8%d9%85-%d8%b9-128-%d9%82/"
+                                        target="_blank" data-toggle="tooltip" data-placement="top" title="20ذیحجه - 
+حضرت امام موسي كاظم(ع) امام هفتم شيعيان در منزل "
+                                        اَبْواء "=" " در=" " بين=" " مكه=" " و=" " مدينه=" " محل=" " دفن=" " حضرت=" " آمنه(س)=" " از=" " مادري=" " به=" " نام=" " حميده=" " زاده=" " شد."=""
+                                        class="hover_color_darkgreen" amino-styles="transition: all 0.6s ease-in-out 0s;text-decoration: none;
+ color: red;
+ outline: 0;outline: 0 !important;"> <span class="" style="line-height:16px;">ولادت امام موسي كاظم(ع) (۱۲۸ ق)</span>
+                                    </a>
+                                </div>
+                                <div class="liayyam"> <i class="fa fa-circle-o" aria-hidden="true"></i>
+                                    <a href="post/5141/%d8%b9%d9%8a%d8%af-%d8%b3%d8%b9%d9%8a%d8%af-%d8%ba%d8%af%d9%8a%d8%b1%d8%ae%d9%85/"
+                                        target="_blank" data-toggle="tooltip" data-placement="top"
+                                        title="18ذيحجه
+عيد سعيدغديرخم و انتخاب&rlm; اميرالمؤمنين&rlm; امام &rlm;علي(ع) به &rlm;جانشيني پيامبراسلام(10ق)، 
+اهميت انتخاب امام علي(ع) به جانشيني پيامبر اسلام به حدي است كه خداوند، انجام اين كار عظيم را، انجام كامل رسالتِ پيامبر(ص) عنوان نموده است. اين مراسم درمكاني به نام غدير خم، واقع در مسير مكه به مدينه برگزار شد."
+                                        class="hover_color_darkgreen" amino-styles="transition: all 0.6s ease-in-out 0s;text-decoration: none;
+ color: red;
+ outline: 0;outline: 0 !important;"> <span class="" style="line-height:16px;">عيد سعيد غديرخم</span> </a>
+                                </div>
+                                <div class="liayyam"> <i class="fa fa-circle-o" aria-hidden="true"></i>
+                                    <a href="post/5137/%d8%b9%d9%8a%d8%af-%d8%b3%d8%b9%d9%8a%d8%af%d9%82%d8%b1%d8%a8%d8%a7%d9%86/"
+                                        target="_blank" data-toggle="tooltip" data-placement="top" title="10ذيحجه، عيد سعيدقربان، پيامبرصلي الله عليه وآله : يُغفَرُ لِصاحِبِ الأضحِيَّةِ عِندَ أوَّلِ قَطرَةٍ تَقطُرُ مِن دَمِها؛ 
+با ريختن اوّلين قطره خون قرباني [به زمين] ، صاحب قرباني آمرزيده مي&zwnj;&rlm;شود" class="hover_color_darkgreen"
+                                        amino-styles="transition: all 0.6s ease-in-out 0s;text-decoration: none;
+ color: red;
+ outline: 0;outline: 0 !important;"> <span class="" style="line-height:16px;">عيد سعيدقربان</span> </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-3 col-sm-6 ayyam2 pl-0">
+                                <p class="font_bmitrabold payyam"> <i class="fa fa-calendar" aria-hidden="true"></i>
+                                    مناسبت&zwnj;های شهریور ماه </p>
+                                <div class="liayyam"> <i class="fa fa-circle-o" aria-hidden="true"></i>
+                                    <a href="post/5069/%d8%a2%d8%ba%d8%a7%d8%b2-%d9%87%d9%81%d8%aa%d9%87-%d8%af%d9%81%d8%a7%d8%b9-%d9%85%d9%82%d8%af%d8%b3/"
+                                        target="_blank" data-toggle="tooltip" data-placement="top"
+                                        title="31 شهريور سالروز شروع جنگ تحميلي از سوي رژيم بعث عراق عليه جمهوري اسلامي ايران، به عنوان آغاز هفته دفاع مقدس نامگذاري شده است."
+                                        class="hover_color_darkgreen" amino-styles="transition: all 0.6s ease-in-out 0s;text-decoration: none;
+ color: red;
+ outline: 0;outline: 0 !important;"> <span class="" style="line-height:16px;">آغاز هفته دفاع مقدس</span> </a>
+                                </div>
+                                <div class="liayyam"> <i class="fa fa-circle-o" aria-hidden="true"></i>
+                                    <a href="post/60426/%d8%b1%d9%88%d8%b2-%d8%b4%d8%b9%d8%b1-%d9%88-%d8%a7%d8%af%d8%a8-%d9%81%d8%a7%d8%b1%d8%b3%db%8c-%d8%b1%d9%88%d8%b2-%d8%a8%d8%b2%d8%b1%da%af%d8%af%d8%a7%d8%b4%d8%aa-%d8%a7%d8%b3%d8%aa%d8%a7%d8%af-%d8%b4%d9%87%d8%b1%db%8c%d8%a7%d8%b1/"
+                                        target="_blank" data-toggle="tooltip" data-placement="top"
+                                        title="27 شهریور،
+سید محمّدحسین بهجت تبریزی در سال 1285 شمسی در روستای خشکناب آذربایجان شرقی تولد یافت. دوران متوسطه را در تبریز گذراند و با اخذ دیپلم وارد مدرسه دارالفنون در تهران شد و به تحصیل پزشکی پرداخت، اما آن را ناتمام گذاشت و در جرگه شاعران درآمد گرچه اشعارش در سیزده سالگی گواه آن است که ذوق شاعری از همان دوران کودکی در وجود او شعله ور بوده است."
+                                        class="hover_color_darkgreen" amino-styles="transition: all 0.6s ease-in-out 0s;text-decoration: none;
+ color: red;
+ outline: 0;outline: 0 !important;"> <span class="" style="line-height:16px;">روز شعر و ادب فارسی</span> </a>
+                                </div>
+                                <div class="liayyam"> <i class="fa fa-circle-o" aria-hidden="true"></i>
+                                    <a href="post/60425/%d8%b4%d9%87%d8%a7%d8%af%d8%aa-%d8%a2%db%8c%d8%aa-%d8%a7%d9%84%d9%84%d9%87-%d8%b3%db%8c%d8%af-%d8%a7%d8%b3%d8%af%d8%a7%d9%84%d9%84%d9%87-%d9%85%d8%af%d9%86%db%8c-%d8%af%d9%88%d9%85%db%8c%d9%86-%d8%b4%d9%87%db%8c%d8%af-%d9%85%d8%ad%d8%b1%d8%a7%d8%a8-%d8%af%d8%b1-%d8%aa%d8%a8%d8%b1%db%8c%d8%b2-1/"
+                                        target="_blank" data-toggle="tooltip" data-placement="top"
+                                        title="20 شهریور،
+سید اسدالله مدنی از سادات دهخوارقان (آذرشهر فعلی) از توابع تبریز در سال 1292ش به دنیا آمد. دروس مقدماتی را در مدرسه طالبیه تبریز گذراند.
+سپس عازم قم گردید و از محضر حضرات آیات حجت کوه کمری و سیدمحمدتقی خوانساری و نیز امام خمینی در فقه و اصول و فلسفه و اخلاق بهره گرفت." class="hover_color_darkgreen" amino-styles="transition: all 0.6s ease-in-out 0s;text-decoration: none;
+ color: red;
+ outline: 0;outline: 0 !important;"> <span class="" style="line-height:16px;">شهادت آیت الله سید اسدالله مدنی</span>
+                                    </a>
+                                </div>
+                                <div class="liayyam"> <i class="fa fa-circle-o" aria-hidden="true"></i>
+                                    <a href="post/60424/%d8%af%d8%b1%da%af%d8%b0%d8%b4%d8%aa-%d8%a2%db%8c%d8%aa-%d8%a7%d9%84%d9%84%d9%87-%d8%b7%d8%a7%d9%84%d9%82%d8%a7%d9%86%db%8c-%d8%a7%d9%88%d9%84%db%8c%d9%86-%d8%a7%d9%85%d8%a7%d9%85-%d8%ac%d9%85%d8%b9%d9%87-%d8%aa%d9%87%d8%b1%d8%a7%d9%86-1358%d8%b4/"
+                                        target="_blank" data-toggle="tooltip" data-placement="top"
+                                        title="19 شهریور،
+سید محمود طالقانی در اسفند 1289 ش در طالقان قزوین به دنیا آمد. سال 1301ه&zwj; .ش به حوزه علمیه قم و سپس نجف رفت و در محضر بزرگان آن دیار درس خواند.
+آیت الله طالقانی در دوره ملی شدن نفت و دولت مصدق به طور فعال در مبارزات نهضت آزادی بخش ملی ایران شرکت داشت و بعد از کودتای 28 مرداد مبارزه را به صورت پنهانی در نهضت مقاومت ملی ادامه داد."
+                                        class="hover_color_darkgreen" amino-styles="transition: all 0.6s ease-in-out 0s;text-decoration: none;
+ color: red;
+ outline: 0;outline: 0 !important;"> <span class="" style="line-height:16px;">درگذشت آیت الله طالقانی؛ اولین امام جمعه
+                                            تهران(۱۳۵۸ش) ...</span> </a>
+                                </div>
+                                <div class="liayyam"> <i class="fa fa-circle-o" aria-hidden="true"></i>
+                                    <a href="post/60423/%d8%b1%d9%88%d8%b2-%d8%b5%d9%86%d8%b9%d8%aa-%da%86%d8%a7%d9%be/"
+                                        target="_blank" data-toggle="tooltip" data-placement="top"
+                                        title="11 شهریور،
+یازده شهریور به عنوان روز صنعت چاپ نام گذاری شده است.
+بشر از ابتدا در تلاش برای انتقال اطلاعات و دانش شفاهی خود بوده است.در مجموع سیر تکامل خط و ارائه اندیشه و گفتار به صورت مکتوب و مضبوط را می توان چنین بیان کرد:1-تصویرنگاری 2-اندیشه نگاری 3-واژه نگاری 4-آوانگاری، هجانویسی و خط الفبائی."
+                                        class="hover_color_darkgreen" amino-styles="transition: all 0.6s ease-in-out 0s;text-decoration: none;
+ color: red;
+ outline: 0;outline: 0 !important;"> <span class="" style="line-height:16px;">روز صنعت چاپ</span> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section7 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <ul class="nav nav-pills mb-3 navnews" role="tablist"> <img alt=""
+                            src="images/eslim1.jpg" class="newsimg">
+                        <li class="nav-item"> <a class="nav-link active">احادیث معصومين عليهم السلام</a> </li>
+                    </ul>
+
+
+                    <div class="row rowmasoom">
+                        <div class="takmasoom col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                           <div>
+                               <i class="fa fa-circle" aria-hidden="true"></i>
+                               <a target="_blank" href="post/42262/نفاق/"  >پيامبر اعظم صلی‌الله‌علیه‌وآله</a><br>
+                            </div>
+                        </div>
+                        <div class="takmasoom col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <div>
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                 <a target="_blank" href="post/42262/نفاق/"  >حضرت فاطمه زهرا علیهاالسلام</a><br>
+                             </div>
+                         </div>
+                         <div class="takmasoom col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <div>
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                 <a target="_blank" href="post/42262/نفاق/"  >امام علی علیه‌السلام</a><br>
+                             </div>
+                         </div>
+                         <div class="takmasoom col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <div>
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                 <a target="_blank" href="post/42262/نفاق/"  >امام حسن علیه‌السلام</a><br>
+                             </div>
+                         </div>
+                         <div class="takmasoom col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <div>
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                 <a target="_blank" href="post/42262/نفاق/"  >امام حسین علیه‌السلام</a><br>
+                             </div>
+                         </div>
+                         <div class="takmasoom col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <div>
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                 <a target="_blank" href="post/42262/نفاق/"  >امام سجاد علیه‌السلام</a><br>
+                             </div>
+                         </div>
+                         <div class="takmasoom col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <div>
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                 <a target="_blank" href="post/42262/نفاق/"  >امام باقر علیه‌السلام</a><br>
+                             </div>
+                         </div>
+                         <div class="takmasoom col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <div>
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                 <a target="_blank" href="post/42262/نفاق/"  >امام صادق علیه‌السلام</a><br>
+                             </div>
+                         </div>
+                         <div class="takmasoom col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <div>
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                 <a target="_blank" href="post/42262/نفاق/"  >امام کاظم علیه‌السلام</a><br>
+                             </div>
+                         </div>
+                         <div class="takmasoom col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <div>
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                 <a target="_blank" href="post/42262/نفاق/"  >امام رضا علیه‌السلام</a><br>
+                             </div>
+                         </div>
+                         <div class="takmasoom col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <div>
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                 <a target="_blank" href="post/42262/نفاق/"  >امام جواد علیه‌السلام</a><br>
+                             </div>
+                         </div>
+                         <div class="takmasoom col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <div>
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                 <a target="_blank" href="post/42262/نفاق/"  >امام هادی علیه‌السلام</a><br>
+                             </div>
+                         </div>
+                         <div class="takmasoom col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <div>
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                 <a target="_blank" href="post/42262/نفاق/"  >امام عسکری علیه‌السلام</a><br>
+                             </div>
+                         </div>
+                         <div class="takmasoom col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <div>
+                                <i class="fa fa-circle" aria-hidden="true"></i>
+                                 <a target="_blank" href="post/42262/نفاق/"  >امام مهدی علیه‌السلام</a><br>
+                             </div>
+                         </div>
+
+
+                    </div>
+
+
+
+                </div>
+                <div class="col-12 col-md-3">
+                    <ul class="nav nav-pills mb-3 navnews" role="tablist"> <img alt=""
+                        src="images/eslim1.jpg" class="newsimg">
+                    <li class="nav-item"> <a class="nav-link active">چهل‌حدیث‌ها</a> </li>
+                </ul>
+                <div class="row">
+                        <div class="list-group">
+                            <a href="/post/66581" class="list-group-item list-group-item-action">
+                            <i class="fa fa-file-text-o"></i>چهل حدیث « رفتار خدا پسندانه با مردم 
+                            » </a>
+                            <a href="/post/66578" class="list-group-item list-group-item-action">
+                            <i class="fa fa-file-text-o"></i>خانواده، همسران (زنان) </a>
+                            <a href="/post/65533" class="list-group-item list-group-item-action">
+                            <i class="fa fa-file-text-o"></i>چهل حدیث « خیر دو جهان »</a>
+                            <a href="/post/65502" class="list-group-item list-group-item-action">
+                            <i class="fa fa-file-text-o"></i>خانواده، نوجوانان</a>
+                            <a href="/post/66574" class="list-group-item list-group-item-action">
+                            <i class="fa fa-file-text-o"></i>چهل حدیث « دوستی با خدا »</a>
+                            <a href="/post/65501" class="list-group-item list-group-item-action">
+                            <i class="fa fa-file-text-o"></i>چهل حدیث « الگوی خانواده »</a>
+                            <a href="/post/65501" class="list-group-item list-group-item-action">
+                            <i class="fa fa-file-text-o"></i>چهل حدیث « از خدا بخواهیم »</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-md-2">
+                    <ul class="nav nav-pills mb-3 navnews" role="tablist"> <img alt=""
+                        src="images/eslim1.jpg" class="newsimg">
+                    <li class="nav-item"> <a class="nav-link active">احادیث داستانی</a> </li>
+                </ul>
+                   <div class="row">
+                        <div class="list-group"><a href="/post/66581" class="list-group-item list-group-item-action"><i
+                            class="fa fa-file-text-o"></i>کمک به نیازمندان
+                    </a> <a href="/post/66578" class="list-group-item list-group-item-action"><i
+                            class="fa fa-file-text-o"></i>بیعت اول و دوم عقبه
+                    </a> <a href="/post/65533" class="list-group-item list-group-item-action"><i class="fa fa-file-text-o"></i>
+                        برادر حقیقی</a> <a href="/post/65502" class="list-group-item list-group-item-action"><i
+                            class="fa fa-file-text-o"></i>
+                            آفت ایمان</a> <a href="/post/66574" class="list-group-item list-group-item-action"><i
+                            class="fa fa-file-text-o"></i>
+                            دولت اهل بیت(ع)</a> <a href="/post/65501" class="list-group-item list-group-item-action"><i
+                            class="fa fa-file-text-o"></i>
+                            هنگام غذا خوردن</a>
+                        <a href="/post/65501" class="list-group-item list-group-item-action"><i
+                            class="fa fa-file-text-o"></i>
+                            توجه به همسر</a>
+                    
+                    </div>
+
+                   </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section3 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 bayan">
+                            <div class="anvbayan">تحلیل و بیان</div>
+                            <div class="tabs_hover2 divtab">
+
+                                <ul class="horiz">
+                                    <li class="active"><a href="/post/66562" id="#tab-66562">ویژه‌نامه امام کاظم سلام
+                                            الله علیه</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-66562" style="">
+                                    <a href="/post/66562" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/66562/image?refresh=8/25/2019 8:05:21 AM&amp;w=263&amp;h=162"
+                                            alt="مراسم بزرگداشت روز مباهله در بارگاه ملکوتی حضرت عبدالعظیم(ع)"></a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/66557" id="#tab-66557">معرفی پایگاه های امام باقر(ع)</a>
+                                    </li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-66557" style="display: none;">
+                                    <a href="/post/66557" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/66557/image?refresh=7/25/2019 1:11:57 PM&amp;w=263&amp;h=162"
+                                            alt="مرحوم آیت الله حائری با وجود شخصیت علمی ممتاز بسیار متواضع بود"></a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/66554" id="#tab-66554">همیاری</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-66554" style="display: none;">
+                                    <a href="/post/66554" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/66554/image?refresh=7/20/2019 9:15:26 AM&amp;w=263&amp;h=162"
+                                            alt="پیکر آیت الله حائری در حرم حضرت معصومه(س) به خاک سپرده شد"></a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/65552" id="#tab-65552">۲۴ ذیحجه روز مباهله</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-65552" style="display: none;">
+                                    <a href="/post/65552" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/65552/image?refresh=7/18/2019 12:30:29 PM&amp;w=263&amp;h=162"
+                                            alt="کتاب «پرتویی از تفسیر اهل&zwnj;بیت (ع)» در قم رونمایی شد"></a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/65553" id="#tab-65553">معرفی پایگاه های امام باقر(ع)</a>
+                                    </li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-65553" style="display: none;">
+                                    <a href="/post/65553" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/65553/image?refresh=7/28/2019 9:04:46 AM&amp;w=263&amp;h=162"
+                                            alt="آغاز حرکتی در جهت مرجعیت علمی اهل بیت در تفسیر قرآن"></a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 bayan">
+                            <div class="anvbayan">زلال معرفت</div>
+                            <div class="tabs_hover2 divtab">
+                                <ul class="horiz">
+                                    <li class="active"><a href="/post/66562" id="#tab-66562">ویژه‌نامه امام کاظم سلام
+                                            الله علیه</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-66562" style="">
+                                    <a href="/post/66562" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/66562/image?refresh=8/25/2019 8:05:21 AM&amp;w=263&amp;h=162"
+                                            alt="مراسم بزرگداشت روز مباهله در بارگاه ملکوتی حضرت عبدالعظیم(ع)"></a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/66557" id="#tab-66557">معرفی پایگاه های امام باقر(ع)</a>
+                                    </li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-66557" style="display: none;">
+                                    <a href="/post/66557" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/66557/image?refresh=7/25/2019 1:11:57 PM&amp;w=263&amp;h=162"
+                                            alt="مرحوم آیت الله حائری با وجود شخصیت علمی ممتاز بسیار متواضع بود"></a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/66554" id="#tab-66554">همیاری</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-66554" style="display: none;">
+                                    <a href="/post/66554" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/66554/image?refresh=7/20/2019 9:15:26 AM&amp;w=263&amp;h=162"
+                                            alt="پیکر آیت الله حائری در حرم حضرت معصومه(س) به خاک سپرده شد"></a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/65552" id="#tab-65552">۲۴ ذیحجه روز مباهله</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-65552" style="display: none;">
+                                    <a href="/post/65552" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/65552/image?refresh=7/18/2019 12:30:29 PM&amp;w=263&amp;h=162"
+                                            alt="کتاب «پرتویی از تفسیر اهل&zwnj;بیت (ع)» در قم رونمایی شد"></a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/65553" id="#tab-65553">معرفی پایگاه های امام باقر(ع)</a>
+                                    </li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-65553" style="display: none;">
+                                    <a href="/post/65553" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/65553/image?refresh=7/28/2019 9:04:46 AM&amp;w=263&amp;h=162"
+                                            alt="آغاز حرکتی در جهت مرجعیت علمی اهل بیت در تفسیر قرآن"></a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <div class="col-12 col-md-5 qa">
+                    <div class="question"> <i class="fa fa-question-circle"
+                            style="color:#C0C0C0;margin-left:5px;"></i><a href="#" target="_blank" title="">از نظر
+                            احادیث، مهم ترین وظایف خاصّ مرد در تحکیم خانواده چیست؟</a> </div>
+                    <div class="question"> <i class="fa fa-question-circle"
+                            style="color:#C0C0C0;margin-left:5px;"></i><a href="#" target="_blank" title="">رابطه خلافت
+                            عبّاسى با امامان دهم و یازدهم چگونه بود؟</a> </div>
+                    <div class="question"> <i class="fa fa-question-circle"
+                            style="color:#C0C0C0;margin-left:5px;"></i><a href="#" target="_blank" title="">جایگاه نماز
+                            جمعه و ارتباط دو سویۀ آن با مردم و نظام اسلامی، چیست؟</a> </div>
+                    <div class="question"> <i class="fa fa-question-circle"
+                            style="color:#C0C0C0;margin-left:5px;"></i><a href="#" target="_blank" title="">آیا نماز
+                            جمعه در عصر معصومان(ع) برگزار می شد؟</a> </div>
+                    <div class="question"> <i class="fa fa-question-circle"
+                            style="color:#C0C0C0;margin-left:5px;"></i><a href="#" target="_blank" title="">با توجه به
+                            قضیه ی غدیر، چرا مسلمانان صدر اسلام از امیرالمؤمنین(ع) اطاعت لازم نداشتند؟</a> </div>
+                    <div class="question"> <i class="fa fa-question-circle"
+                            style="color:#C0C0C0;margin-left:5px;"></i><a href="#" target="_blank" title="">عوامل تحكيم
+                            خانواده چیست؟</a> </div>
+                    <div class="question"> <i class="fa fa-question-circle"
+                            style="color:#C0C0C0;margin-left:5px;"></i><a href="#" target="_blank" title="">از نظر
+                            احادیث، مهم ترین وظایف خاصّ مرد در تحکیم خانواده چیست؟</a> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section6 py-4 mt-4">
+            <div class="container">
+                                <div class="col-12 col-md-12 d-flex" dir="ltr">
+                            <svg class="defs-only">
+                                    <filter id="monochrome" color-interpolation-filters="sRGB"
+                                            x="0" y="0" height="100%" width="100%">
+                                      <feColorMatrix type="matrix"
+                                        values="0.95 0 0 0 0.05 
+                                                0.85 0 0 0 0.15  
+                                                0.50 0 0 0 0.50 
+                                                0    0 0 1 0" />
+                                    </filter>
+                                  </svg>
+                        <div class="card align-items-center">
+                            <h3 class="title align-self-start"><a href="">معرفی پایگاه ها</a></h3>
+                               <div class="bar">
+                                <div class="emptybar"></div>
+                                <div class="filledbar"></div>
+                            </div>
+                            <div class="ServicesParent1">
+                                <div class="ServicesParent2">
+                                    <a href=""><div class="ServicesParent3">
+                                        <img src="images/33.jfif" alt=""> 
+                                    </div></a>
+                                </div>
+                            </div>
+                           
+                          <!--  <div class="rect">
+                                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                  <rect class="stroke" width="60%" height="30%" fill="none" />
+                                     <text x="40" y="90" fill="#ED6E46" font-size="20" font-family="cursive">CSS-Tricks</text> 
+                                </svg>
+                            </div>-->
+                            <h4 class="disc"><a href=""> موسسه دارالحدیث</a></h4>
+                        </div>
+                        <div class="card align-items-center">
+                            <h3 class="title align-self-start"><a href="">سامانه حدیث روز</a></h3>
+                               <div class="bar">
+                                <div class="emptybar"></div>
+                                <div class="filledbar"></div>
+                            </div>
+                          <div class="ServicesParent1">
+                                <div class="ServicesParent2">
+                                    <a href=""><div class="ServicesParent3">
+                                        <img src="images/22.jfif" alt=""> 
+                                    </div></a>
+                                </div>
+                            </div>
+                           <h4 class="disc"><a href="">ثبت نام حدیث روز</a></h4>
+                        </div>
+                        <div class="card align-items-center">
+                            <h3 class="title align-self-start"><a href="">نگارخانه</a></h3>
+                               <div class="bar">
+                                <div class="emptybar"></div>
+                                <div class="filledbar"></div>
+                            </div>
+                          <div class="ServicesParent1">
+                                <div class="ServicesParent2">
+                                    <a href=""><div class="ServicesParent3">
+                                        <img src="images/44.jfif" alt=""> 
+                                    </div></a>
+                                </div>
+                            </div>
+                           <h4 class="disc"><a href=""> آشنایی با کتابخانه دارلحدیث</a></h4>
+                        </div>
+                        <div class="card align-items-center">
+                            <h3 class="title align-self-start"><a href="">تصاویر حدیثی</a></h3>
+                               <div class="bar">
+                                <div class="emptybar"></div>
+                                <div class="filledbar"></div>
+                            </div>
+                          <div class="ServicesParent1">
+                                <div class="ServicesParent2">
+                                    <a href=""><div class="ServicesParent3">
+                                        <img src="images/11.jfif" alt=""> 
+                                    </div></a>
+                                </div>
+                            </div>
+                           <h4 class="disc"><a href="">مدارا، چاره درماندگی</a></h4>
+                        </div>
+                        <div class="card align-items-center">
+                            <h3 class="title align-self-start"><a href="">فهرست مؤلفان</a></h3>
+                               <div class="bar">
+                                <div class="emptybar"></div>
+                                <div class="filledbar"></div>
+                            </div>
+                          <div class="ServicesParent1">
+                                <div class="ServicesParent2">
+                                    <a href=""><div class="ServicesParent3">
+                                        <img src="images/33.jfif" alt=""> 
+                                    </div></a>
+                                </div>
+                            </div>
+                           <h4 class="disc"><a href="">محمد محمدی ری شهری</a></h4>
+                        </div>
+                        <div class="card align-items-center">
+                            <h3 class="title align-self-start"><a href="">روایت زندگی</a></h3>
+                               <div class="bar">
+                                <div class="emptybar"></div>
+                                <div class="filledbar"></div>
+                            </div>
+                          <div class="ServicesParent1">
+                                <div class="ServicesParent2">
+                                    <a href=""><div class="ServicesParent3">
+                                        <img src="images/22.jfif" alt=""> 
+                                    </div></a>
+                                </div>
+                            </div>
+                           <h4 class="disc"><a href="">نامه‌ای از شیطان</a></h4>
+                        </div>
+                        <div class="card align-items-center">
+                            <h3 class="title align-self-start"><a href="">جستجوگر حدیثی میزان</a></h3>
+                               <div class="bar">
+                                <div class="emptybar"></div>
+                                <div class="filledbar"></div>
+                            </div>
+                          <div class="ServicesParent1">
+                                <div class="ServicesParent2">
+                                    <a href=""><div class="ServicesParent3">
+                                        <img src="images/11.jfif" alt=""> 
+                                    </div></a>
+                                </div>
+                            </div>
+                           <h4 class="disc"><a href="">جستجوگر حدیثی میزان</a></h4>
+                        </div>
+                        
+    
+                    </div>
+    
+                
+            </div>
+        </section>
+    <section class="section4 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <ul class="nav nav-pills mb-3 navnews" role="tablist"> <img alt=""
+                            src="images/eslim1.jpg" class="newsimg">
+                        <li class="nav-item"> <a class="nav-link active">کــتــاب</a> </li>
+                    </ul>
+
+
+                    <div class="row rowbooks text-center">
+
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a class="abook"></a>
+                            <a href="#" class="d-block mb-2">
+                                <img class="img-fluid img-thumbnail" src="images/11.jfif" alt="">
+                            </a>
+                            <h3><a href="">اطلس غدیر</a></h3>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a class="abook"></a>
+                            <a href="#" class="d-block mb-2">
+                                <img class="img-fluid img-thumbnail" src="images/22.jfif" alt="">
+                            </a>
+                            <h3><a href="">اسرار غدیر خم</a></h3>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a class="abook"></a>
+                            <a href="#" class="d-block mb-2">
+                                <img class="img-fluid img-thumbnail" src="images/33.jfif" alt="">
+                            </a>
+                            <h3><a href="">ایمان در قرآن</a></h3>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a class="abook"></a>
+                            <a href="#" class="d-block mb-2">
+                                <img class="img-fluid img-thumbnail" src="images/44.jfif" alt="">
+                            </a>
+                            <h3><a href="">سیرة خاتم النبیین</a></h3>
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+                <div class="col-12 col-md-5">
+                    <ul class="nav nav-pills mb-3 navnews" role="tablist"> <img alt=""
+                            src="images/eslim1.jpg" class="newsimg">
+                        <li class="nav-item"> <a class="nav-link active" id="" data-toggle="pill"
+                                href="#pills-tab4" role="tab" aria-controls="pills-tab1"
+                                aria-selected="true">نــشــریــه</a> </li>
+                        <li class="nav-item"> <a class="nav-link" id="" data-toggle="pill"
+                                href="#pills-tab5" role="tab" aria-controls="pills-tab2"
+                                aria-selected="false">مــقــالــه</a> </li>
+
+                    </ul>
+                    <div class="tab-content" id="">
+                        <div class="tab-pane fade show active" id="pills-tab4" role="tabpanel"
+                            aria-labelledby="pills-tab4">
+                            <div class="tabs_hover2 divtab tabnashr">
+                                <ul class="horiz">
+                                    <li class="active"><a href="/post/665" id="#tab-665">فصل نامه علوم حديث</a></li>
+                                </ul>
+                                <div class="distabs" id="tab-665">
+                                    <a href="/post/66554"><img src="images/0011.jpg" class="img-thumbnail" alt="">
+                                        <h3><a href="/post/35819">
+                                                <i class="fa fa-book" aria-hidden="" style="margin-left:5px"></i>فصل
+                                                نامه علوم حديث</a></h3>
+                                        <p>شماره 90 پاییز 98</p>
+                                    </a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class="active"><a href="/post/66562" id="#tab-66562">تفسير اهل بيت(ع)</a></li>
+                                </ul>
+                                <div class="distabs" id="tab-66562" style="">
+                                    <a href="/post/66562" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/66562/image?refresh=8/25/2019 8:05:21 AM&amp;w=263&amp;h=162"
+                                            alt="مراسم بزرگداشت روز مباهله در بارگاه ملکوتی حضرت عبدالعظیم(ع)">
+                                        <div class="caption">
+                                            <p>مراسم بزرگداشت سالروز مباهله پیامبر خاتم (ص) در بارگاه ملکوتی حضرت
+                                                عبدالعظیم علیه السّلام برگزار می گردد.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/66557" id="#tab-66557">پژوهش‌نامه نهج البلاغه</a></li>
+                                </ul>
+                                <div class="distabs" id="tab-66557" style="display: none;">
+                                    <a href="/post/66557" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/66557/image?refresh=7/25/2019 1:11:57 PM&amp;w=263&amp;h=162"
+                                            alt="مرحوم آیت الله حائری با وجود شخصیت علمی ممتاز بسیار متواضع بود">
+                                        <div class="caption">
+                                            <p>تولیت آستان مقدس حضرت عبدالعظیم حسنی(ع) با بیان اینکه مرحوم آیت الله
+                                                حائری شخصیت اخلاقی برجسته ای داشتند، گفت: ایشان با وجود ...</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/66554" id="#tab-66554">پژوهش نامه علوی</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-66554">
+                                    <a href="/post/66554"><img
+                                            src="http://www.reyshahri.ir/PostFile/66554/image?refresh=7/20/2019 9:15:26 AM&amp;w=263&amp;h=162"
+                                            alt="">
+                                        <h3><a href="/post/35819">
+                                                <i class="fa fa-book" aria-hidden="" style="margin-left:5px"></i>پژوهش
+                                                نامه علوی</a></h3>
+                                        <p>شماره 90 پاییز 98</p>
+                                    </a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/65552" id="#tab-65552"> حديث و انديشه</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-65552" style="display: none;">
+                                    <a href="/post/65552" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/65552/image?refresh=7/18/2019 12:30:29 PM&amp;w=263&amp;h=162"
+                                            alt="کتاب «پرتویی از تفسیر اهل&zwnj;بیت (ع)» در قم رونمایی شد">
+                                        <div class="caption">
+                                            <p>کتاب ۲ جلدی «پرتویی از تفسیر اهل&zwnj;بیت (ع)» روز یکشنبه با حضور
+                                                آیت&zwnj;الله محمدی ری&zwnj;شهری نویسنده این کتاب در مؤسسه علمی پژوهشی
+                                                ...</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/65553" id="#tab-65553">حدیث پژوهی</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-65553" style="display: none;">
+                                    <a href="/post/65553" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/65553/image?refresh=7/28/2019 9:04:46 AM&amp;w=263&amp;h=162"
+                                            alt="آغاز حرکتی در جهت مرجعیت علمی اهل بیت در تفسیر قرآن">
+                                        <div class="caption">
+                                            <p>سومین همایش «سیره امام رضا (ع)؛ آموزه&zwnj;ها و کارکردها» با حضور
+                                                آیت&zwnj;الله محمدی ری&zwnj;شهری در مؤسسه آموزشی و پژوهشی امام خمینی
+                                                (ره) ...</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/65553" id="#tab-65553">مطالعات فهم حدیث</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-65553" style="display: none;">
+                                    <a href="/post/65553" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/65553/image?refresh=7/28/2019 9:04:46 AM&amp;w=263&amp;h=162"
+                                            alt="آغاز حرکتی در جهت مرجعیت علمی اهل بیت در تفسیر قرآن">
+                                        <div class="caption">
+                                            <p>سومین همایش «سیره امام رضا (ع)؛ آموزه&zwnj;ها و کارکردها» با حضور
+                                                آیت&zwnj;الله محمدی ری&zwnj;شهری در مؤسسه آموزشی و پژوهشی امام خمینی
+                                                (ره) ...</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <ul class="horiz">
+                                    <li class=""><a href="/post/65553" id="#tab-65553">حدیث حوزه</a></li>
+                                </ul>
+                                <div class="distabs thumbnail" id="tab-65553" style="display: none;">
+                                    <a href="/post/65553" class="hvr-sweep-to-bottom"><img
+                                            src="http://www.reyshahri.ir/PostFile/65553/image?refresh=7/28/2019 9:04:46 AM&amp;w=263&amp;h=162"
+                                            alt="آغاز حرکتی در جهت مرجعیت علمی اهل بیت در تفسیر قرآن">
+                                        <div class="caption">
+                                            <p>سومین همایش «سیره امام رضا (ع)؛ آموزه&zwnj;ها و کارکردها» با حضور
+                                                آیت&zwnj;الله محمدی ری&zwnj;شهری در مؤسسه آموزشی و پژوهشی امام خمینی
+                                                (ره) ...</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-tab5" role="tabpanel" aria-labelledby="pills-tab5">
+                            <div class="list-group"><a href="/post/66581"
+                                    class="list-group-item list-group-item-action"><i
+                                        class="fa fa-file-text-o"></i>بررسی شخصیت و اوصاف حضرت زینب سلام الله
+                                    علیها</a> <a href="/post/66578" class="list-group-item list-group-item-action"><i
+                                        class="fa fa-file-text-o"></i>روابط عاطفی حضرت زینب و امام حسین علیهما السلام
+                                    با تاکید ...
+                                </a> <a href="/post/65533" class="list-group-item list-group-item-action"><i
+                                        class="fa fa-file-text-o"></i> تحلیل اقتباس های قرآنی حضرت زینب( س) در خطبه
+                                    کوفه</a>   <a href="/post/65502"
+                                    class="list-group-item list-group-item-action"><i class="fa fa-file-text-o"></i>
+                                    تبیین شیوه های تبلیغی حضرت زینب(س) مبلغ بزرگ قیام عاشورا</a> <a href="/post/66574"
+                                    class="list-group-item list-group-item-action"><i class="fa fa-file-text-o"></i>
+                                    نقش گونه شناسی روایات در حل تعارض</a> <a href="/post/65501"
+                                    class="list-group-item list-group-item-action"><i class="fa fa-file-text-o"></i>
+                                    موضوع شناسی دانش تخریج حدیث</a></div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <ul class="nav nav-pills mb-3 navnews" role="tablist"> <img alt=""
+                            src="images/eslim1.jpg" class="newsimg">
+                        <li class="nav-item"> <a class="nav-link active">شرح احادیث در کلام اساتید</a> </li>
+                    </ul>
+
+
+                    <div class="row rowsharh">
+                        <div class="taksharh col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <img alt="نفاق" src="http://hadith.net/Image.aspx?t=author&amp;n=3534.jpg&amp;w=45&amp;h=50">
+                            
+                                <span class="fa fa-bars"></span>
+                                <a target="_blank" href="post/42262/نفاق/"  >نفاق </a>
+                              
+                                    <a href="/author/3534" target="_blank" class="asharh">
+                                    <span class="fa fa-external-link">
+                                    </span>روح الله خمینی</a> 
+                            
+                        </div>
+                        <div class="taksharh col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <img alt="خصوصیاتی که انسان‌های برجسته می‌سازد" src="http://hadith.net/Image.aspx?t=author&amp;n=3434.jpg&amp;w=45&amp;h=50">
+                            
+                                <span class="fa fa-bars"></span>
+                                <a target="_blank" href="post/68475/خصوصیاتی-که-انسان-های-برجسته-می-سازد/"  > خصوصیاتی که انسان‌های ... </a>
+                                
+                                    <a href="/author/3434" target="_blank" class="asharh">
+                                    <span class="fa fa-external-link">
+                                    </span>سید علی خامنه ای</a>
+                            
+                        </div>
+                        <div class="taksharh col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <img alt="700 - بلند همتی" src="http://hadith.net/Image.aspx?t=author&amp;n=801.jpg&amp;w=45&amp;h=50">
+                            
+                                <span class="fa fa-bars"></span>
+                                <a target="_blank" href="post/69092/700-بلند-همتی/"  >۷۰۰ - بلند همتی </a>
+                                
+                                    <a href="/author/801" target="_blank" class="asharh">
+                                    <span class="fa fa-external-link">
+                                    </span>محمد محمدی ری شهری</a> 
+                            
+                        </div>
+                        <div class="taksharh col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <img alt="جلسه 44 کافی خوانی" src="http://hadith.net/Image.aspx?t=author&amp;n=606.jpg&amp;w=45&amp;h=50">
+                            
+                                <span class="fa fa-bars"></span>
+                                <a target="_blank" href="post/63195/جلسه-44-کافی-خوانی/"  >جلسه ۴۴ کافی خوانی </a>
+                                
+                                    <a href="/author/606" target="_blank" class="asharh">
+                                    <span class="fa fa-external-link">
+                                    </span>عبد الهادی مسعودی</a>
+                            
+                        </div>
+                        <div class="taksharh col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <img alt="يكتايي پروردگار" src="http://hadith.net/Image.aspx?t=author&amp;n=1012.jpg&amp;w=45&amp;h=50">
+                            
+                                <span class="fa fa-bars"></span>
+                                <a target="_blank" href="post/47215/يكتايي-پروردگار/"  >يكتايي پروردگار </a>
+                           
+                                    <a href="/author/1012" target="_blank" class="asharh">
+                                    <span class="fa fa-external-link">
+                                    </span>مهدی غلامعلی</a>
+                            
+                        </div>
+                        <div class="taksharh col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <img alt="شرح حکمت 38 نهج البلاغه" src="http://hadith.net/Image.aspx?t=author&amp;n=536.jpg&amp;w=45&amp;h=50">
+                            
+                                <span class="fa fa-bars"></span>
+                                <a target="_blank" href="post/58546/شرح-حکمت-38-نهج-البلاغه/"  >شرح حکمت ۳۸ نهج البلاغه </a>
+                               
+                                    <a href="/author/536" target="_blank" class="asharh">
+                                    <span class="fa fa-external-link">
+                                    </span>سید محمدکاظم طباطبایی</a>
+                            
+                        </div>
+                        <div class="taksharh col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <img alt="شرح حکمت‌های نهج البلاغه 419 - فرزند آدم" src="http://hadith.net/Image.aspx?t=author&amp;n=142.jpg&amp;w=45&amp;h=50">
+                           
+                                <span class="fa fa-bars"></span>
+                                <a target="_blank" href="post/63934/شرح-حکمت-های-نهج-البلاغه-419-فرزند-آدم/"  >شرح حکمت‌های نهج البلاغه ۴۱۹ - ... </a>
+                                
+                                    <a href="/author/142" target="_blank" class="asharh">
+                                    <span class="fa fa-external-link">
+                                    </span>احمد غلامعلی</a>
+                            
+                        </div>
+                        <div class="taksharh col-lg-6 col-md-3 col-sm-6 col-xs-6" >
+                            <img alt="ادامه شرح دعای 31 صحیفه سجادیه (2)" src="http://hadith.net/Image.aspx?t=author&amp;n=637.jpg&amp;w=45&amp;h=50">
+                           
+                                <span class="fa fa-bars"></span>
+                                <a target="_blank" href="post/69088/ادامه-شرح-دعای-31-صحیفه-سجادیه-2/"  >ادامه شرح دعای ۳۱ صحیفه سجادیه ... </a>
+                               
+                                    <a href="/author/637" target="_blank" class="asharh">
+                                    <span class="fa fa-external-link">
+                                    </span>علی صدرایی خویی</a>
+                            
+                        </div>
+                      
+
+
+                    </div>
+
+
+
+                </div>
+                <div class="col-12 col-md-5">
+                    <ul class="nav nav-pills mb-3 navnews" role="tablist"> <img alt=""
+                            src="images/eslim1.jpg" class="newsimg">
+                            <li class="nav-item"> <a class="nav-link active" id="" data-toggle="pill"
+                                href="#pills-tab6" role="tab" aria-controls="pills-tab6"
+                                aria-selected="true">شرح احادیث معصومان</a> </li>
+                        <li class="nav-item"> <a class="nav-link" id="" data-toggle="pill"
+                                href="#pills-tab7" role="tab" aria-controls="pills-tab7"
+                                aria-selected="false">کتب شرح حدیث</a> </li>
+                        
+
+                    </ul>
+                    <div class="tab-content" id="">
+                        
+                        <div class="tab-pane fade show active" id="pills-tab6" role="tabpanel" aria-labelledby="pills-tab6">
+                            <div class="list-group"><a href="/post/66581"
+                                    class="list-group-item list-group-item-action"><i
+                                        class="fa fa-file-text-o"></i>بررسی شخصیت و اوصاف حضرت زینب سلام الله
+                                    علیها</a> <a href="/post/66578" class="list-group-item list-group-item-action"><i
+                                        class="fa fa-file-text-o"></i>روابط عاطفی حضرت زینب و امام حسین علیهما السلام
+                                    با تاکید ...
+                                </a> <a href="/post/65533" class="list-group-item list-group-item-action"><i
+                                        class="fa fa-file-text-o"></i> تحلیل اقتباس های قرآنی حضرت زینب( س) در خطبه
+                                    کوفه</a>   <a href="/post/65502"
+                                    class="list-group-item list-group-item-action"><i class="fa fa-file-text-o"></i>
+                                    تبیین شیوه های تبلیغی حضرت زینب(س) مبلغ بزرگ قیام عاشورا</a> <a href="/post/66574"
+                                    class="list-group-item list-group-item-action"><i class="fa fa-file-text-o"></i>
+                                    نقش گونه شناسی روایات در حل تعارض</a> <a href="/post/65501"
+                                    class="list-group-item list-group-item-action"><i class="fa fa-file-text-o"></i>
+                                    موضوع شناسی دانش تخریج حدیث</a></div>
+
+                        </div>
+                        <div class="tab-pane fade" id="pills-tab7" role="tabpanel" aria-labelledby="pills-tab7">
+                        <div class="tabs_hover2 divtab tabnashr">
+                            <ul class="horiz">
+                                <li class="active"><a href="/post/665" id="#tab-665">فصل نامه علوم حديث</a></li>
+                            </ul>
+                            <div class="distabs" id="tab-665">
+                                <a href="/post/66554"><img src="images/0011.jpg" class="img-thumbnail" alt="">
+                                    <h3><a href="/post/35819">
+                                            <i class="fa fa-book" aria-hidden="" style="margin-left:5px"></i>فصل
+                                            نامه علوم حديث</a></h3>
+                                    <p>شماره 90 پاییز 98</p>
+                                </a>
+                            </div>
+                            <ul class="horiz">
+                                <li class="active"><a href="/post/66562" id="#tab-66562">تفسير اهل بيت(ع)</a></li>
+                            </ul>
+                            <div class="distabs" id="tab-66562" style="">
+                                <a href="/post/66562" class="hvr-sweep-to-bottom"><img
+                                        src="http://www.reyshahri.ir/PostFile/66562/image?refresh=8/25/2019 8:05:21 AM&amp;w=263&amp;h=162"
+                                        alt="مراسم بزرگداشت روز مباهله در بارگاه ملکوتی حضرت عبدالعظیم(ع)">
+                                    <div class="caption">
+                                        <p>مراسم بزرگداشت سالروز مباهله پیامبر خاتم (ص) در بارگاه ملکوتی حضرت
+                                            عبدالعظیم علیه السّلام برگزار می گردد.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <ul class="horiz">
+                                <li class=""><a href="/post/66557" id="#tab-66557">پژوهش‌نامه نهج البلاغه</a></li>
+                            </ul>
+                            <div class="distabs" id="tab-66557" style="display: none;">
+                                <a href="/post/66557" class="hvr-sweep-to-bottom"><img
+                                        src="http://www.reyshahri.ir/PostFile/66557/image?refresh=7/25/2019 1:11:57 PM&amp;w=263&amp;h=162"
+                                        alt="مرحوم آیت الله حائری با وجود شخصیت علمی ممتاز بسیار متواضع بود">
+                                    <div class="caption">
+                                        <p>تولیت آستان مقدس حضرت عبدالعظیم حسنی(ع) با بیان اینکه مرحوم آیت الله
+                                            حائری شخصیت اخلاقی برجسته ای داشتند، گفت: ایشان با وجود ...</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <ul class="horiz">
+                                <li class=""><a href="/post/66554" id="#tab-66554">پژوهش نامه علوی</a></li>
+                            </ul>
+                            <div class="distabs thumbnail" id="tab-66554">
+                                <a href="/post/66554"><img
+                                        src="http://www.reyshahri.ir/PostFile/66554/image?refresh=7/20/2019 9:15:26 AM&amp;w=263&amp;h=162"
+                                        alt="">
+                                    <h3><a href="/post/35819">
+                                            <i class="fa fa-book" aria-hidden="" style="margin-left:5px"></i>پژوهش
+                                            نامه علوی</a></h3>
+                                    <p>شماره 90 پاییز 98</p>
+                                </a>
+                            </div>
+                            <ul class="horiz">
+                                <li class=""><a href="/post/65552" id="#tab-65552"> حديث و انديشه</a></li>
+                            </ul>
+                            <div class="distabs thumbnail" id="tab-65552" style="display: none;">
+                                <a href="/post/65552" class="hvr-sweep-to-bottom"><img
+                                        src="http://www.reyshahri.ir/PostFile/65552/image?refresh=7/18/2019 12:30:29 PM&amp;w=263&amp;h=162"
+                                        alt="کتاب «پرتویی از تفسیر اهل&zwnj;بیت (ع)» در قم رونمایی شد">
+                                    <div class="caption">
+                                        <p>کتاب ۲ جلدی «پرتویی از تفسیر اهل&zwnj;بیت (ع)» روز یکشنبه با حضور
+                                            آیت&zwnj;الله محمدی ری&zwnj;شهری نویسنده این کتاب در مؤسسه علمی پژوهشی
+                                            ...</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <ul class="horiz">
+                                <li class=""><a href="/post/65553" id="#tab-65553">حدیث پژوهی</a></li>
+                            </ul>
+                            <div class="distabs thumbnail" id="tab-65553" style="display: none;">
+                                <a href="/post/65553" class="hvr-sweep-to-bottom"><img
+                                        src="http://www.reyshahri.ir/PostFile/65553/image?refresh=7/28/2019 9:04:46 AM&amp;w=263&amp;h=162"
+                                        alt="آغاز حرکتی در جهت مرجعیت علمی اهل بیت در تفسیر قرآن">
+                                    <div class="caption">
+                                        <p>سومین همایش «سیره امام رضا (ع)؛ آموزه&zwnj;ها و کارکردها» با حضور
+                                            آیت&zwnj;الله محمدی ری&zwnj;شهری در مؤسسه آموزشی و پژوهشی امام خمینی
+                                            (ره) ...</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <ul class="horiz">
+                                <li class=""><a href="/post/65553" id="#tab-65553">مطالعات فهم حدیث</a></li>
+                            </ul>
+                            <div class="distabs thumbnail" id="tab-65553" style="display: none;">
+                                <a href="/post/65553" class="hvr-sweep-to-bottom"><img
+                                        src="http://www.reyshahri.ir/PostFile/65553/image?refresh=7/28/2019 9:04:46 AM&amp;w=263&amp;h=162"
+                                        alt="آغاز حرکتی در جهت مرجعیت علمی اهل بیت در تفسیر قرآن">
+                                    <div class="caption">
+                                        <p>سومین همایش «سیره امام رضا (ع)؛ آموزه&zwnj;ها و کارکردها» با حضور
+                                            آیت&zwnj;الله محمدی ری&zwnj;شهری در مؤسسه آموزشی و پژوهشی امام خمینی
+                                            (ره) ...</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <ul class="horiz">
+                                <li class=""><a href="/post/65553" id="#tab-65553">حدیث حوزه</a></li>
+                            </ul>
+                            <div class="distabs thumbnail" id="tab-65553" style="display: none;">
+                                <a href="/post/65553" class="hvr-sweep-to-bottom"><img
+                                        src="http://www.reyshahri.ir/PostFile/65553/image?refresh=7/28/2019 9:04:46 AM&amp;w=263&amp;h=162"
+                                        alt="آغاز حرکتی در جهت مرجعیت علمی اهل بیت در تفسیر قرآن">
+                                    <div class="caption">
+                                        <p>سومین همایش «سیره امام رضا (ع)؛ آموزه&zwnj;ها و کارکردها» با حضور
+                                            آیت&zwnj;الله محمدی ری&zwnj;شهری در مؤسسه آموزشی و پژوهشی امام خمینی
+                                            (ره) ...</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+    <footer class="footer pt-3">
+        <div class="container container_footer">
+            <div class="row">
+                    <div class="col-12 col-md-3">
+                            
+                       
+                                <div class="list-group">
+                                    <a href="/post/66581" class="list-group-item list-group-item-action">
+                                    <i class="fa fa-window-minimize" aria-hidden="true"></i>احادیث معصومین (ع)</a>
+                                    <a href="/post/66578" class="list-group-item list-group-item-action">
+                                    <i class="fa fa-window-minimize" aria-hidden="true"></i>معارف حدیث</a>
+                                    <a href="/post/65533" class="list-group-item list-group-item-action">
+                                    <i class="fa fa-window-minimize" aria-hidden="true"></i>علوم حدیث</a>
+                                    <a href="/post/65502" class="list-group-item list-group-item-action">
+                                    <i class="fa fa-window-minimize" aria-hidden="true"></i>متون حدیث</a>
+                                    <a href="/post/66574" class="list-group-item list-group-item-action">
+                                    <i class="fa fa-window-minimize" aria-hidden="true"></i>خدمات حدیث</a>
+                                    <a href="/post/65501" class="list-group-item list-group-item-action">
+                                    <i class="fa fa-window-minimize" aria-hidden="true"></i>منابع حدیث</a>
+                                   </div>
+                        
+                            
+                        </div>
+                        <div class="col-12 col-md-3">
+                            
+                               
+                                        <div class="list-group">
+                                            <a href="/post/66581" class="list-group-item list-group-item-action">
+                                            <i class="fa fa-window-minimize" aria-hidden="true"></i>سامانه حدیث روز</a>
+                                            <a href="/post/66578" class="list-group-item list-group-item-action">
+                                            <i class="fa fa-window-minimize" aria-hidden="true"></i>جستجوگر حدیث</a>
+                                            <a href="/post/65502" class="list-group-item list-group-item-action">
+                                            <i class="fa fa-window-minimize" aria-hidden="true"></i>معرفی پایگاه</a>
+                                            <a href="/post/66574" class="list-group-item list-group-item-action">
+                                            <i class="fa fa-window-minimize" aria-hidden="true"></i>نقشه پایگاه</a>
+                                            
+                                           </div>
+                                    
+                                    
+                                </div>
+                                <div class="col-12 col-md-3">
+                            
+                                      
+                                                <div class="list-group">
+                                                        <a href="/post/65533" class="list-group-item list-group-item-action">
+                                                            <i class="fa fa-window-minimize" aria-hidden="true"></i>مؤسسه دارالحدیث</a>
+                                                    <a href="/post/66581" class="list-group-item list-group-item-action">
+                                                    <i class="fa fa-window-minimize" aria-hidden="true"></i>تماس با ما</a>
+                                                    <a href="/post/66578" class="list-group-item list-group-item-action">
+                                                    <i class="fa fa-window-minimize" aria-hidden="true"></i>خبرخوان پایگاه</a>
+                                                    
+                                                    
+                                                   </div>
+
+                                                   <div class="spsh mt-4">
+                                                        <span class="apshdiv">
+                                                        <a href="http://sapp.ir/hadithnet" target="_blank" data-toggle="tooltip" data-placement="top" title="معارف حدیث در «سروش»">
+                                                        <img src="http://hadith.net/Image.aspx?t=bank&amp;n=Icon/sorush.png&amp;w=20&amp;q=5"></a></span>
+                                                        <span class="apshdiv">
+                                                        <a href="https://eitaa.com/hadithnet" target="_blank">
+                                                        <img src="http://hadith.net/Image.aspx?t=bank&amp;n=Icon/eitaa_hadithnet.png&amp;w=20&amp;q=5" data-toggle="tooltip" data-placement="top" title="معارف حدیث در «ایتا»"></a></span>
+                                                        <span class="apshdiv">
+                                                        <a href="https://profile.igap.net/hadithnet" target="_blank">
+                                                        <img src="http://hadith.net/Image.aspx?t=bank&amp;n=Icon/igap.png&amp;w=20&amp;q=5" data-toggle="tooltip" data-placement="top" title="معارف حدیث در «آی گپ»"></a></span>
+                                                        <span class="apshdiv">
+                                                        <a href="https://www.instagram.com/hadithnet/" target="_blank">
+                                                        <img src="http://hadith.net/Image.aspx?t=bank&amp;n=Icon/inst.png&amp;w=20&amp;q=5" data-toggle="tooltip" data-placement="top" title="حدیث نت در «اینستاگرام»"></a></span>
+                                        
+                                                        <span class="apshdiv">
+                                                        <a href="http://telegram.me/darolhadithbot" target="_blank">
+                                                        <img src="http://hadith.net/Image.aspx?t=bank&amp;n=Icon/robot.png&amp;w=20&amp;q=5" data-toggle="tooltip" data-placement="top" title="ربات حدیث"></a></span>
+                                                    </div>
+                                           
+                                            
+                                        </div>
+                                        <div class="col-12 col-md-3 text-center">
+                                                <div class="mb-3 img-logo">
+                                                        <a href="#">
+                                                            <img src="images/darolhadith_100.png" alt="مؤسسه دارالحدیث" >
+                                                        </a>
+                                                    </div>
+                            
+                                                
+                                                        <p class="paddres">
+                                                                آدرس: قم، بزرگراه امام علی (ع)، کیلومتر5
+                                                                <br>
+                                                                مؤسسه علمی فرهنگی دارالحدیث
+                                                            
+                                                           </div>
+                                                    
+                                                    
+                                                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-copyright text-center py-2 mt-3">
+            <div class="container">
+            © تمامی حقوق مادی و معنوی این پایگاه به مؤسسه علمی فرهنگی دارالحدیث تعلق دارد.
+        </div>
+              </div>
+    </footer>
+    <!-- /.container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/waves.js"></script>
+    <script src="js/initializers.js"></script>
+    <script src="js/tabslet.js"></script>
+    <script>
+        /*--/ Navbar Menu Reduce /--*/
+        $(window).trigger('scroll');
+        $(window).bind('scroll', function () {
+            var pixels = 50;
+            var top = 1200;
+            if ($(window).scrollTop() > pixels) {
+                $('.navbar-default').addClass('navbar-reduce');
+                $('.navbar-default').removeClass('navbar-trans');
+            }
+            else {
+                $('.navbar-default').addClass('navbar-trans');
+                $('.navbar-default').removeClass('navbar-reduce');
+            }
+            if ($(window).scrollTop() > top) {
+                $('.scrolltop-mf').fadeIn(1000, "easeInOutExpo");
+            }
+            else {
+                $('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
+            }
+        });
+    </script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30
+            , centeredSlides: true
+            , loop: true
+            , effect: 'fade'
+            , autoplay: {
+                delay: 2500
+                , disableOnInteraction: false
+                ,
+            }
+            , pagination: {
+                el: '.swiper-pagination'
+                , clickable: true
+                ,
+            }
+            , navigation: {
+                nextEl: '.swiper-button-next'
+                , prevEl: '.swiper-button-prev'
+                ,
+            }
+            ,
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".vt a").mouseover(function () {
+                $(this).tab('show');
+            });
+        });
+
+        $(function () {
+            $('[data-toggle="modal"]').click(function () {
+                var modalId = $(this).data('target');
+                $(modalId).modal('show');
+
+            });
+
+        });
+        
+        $(window).scroll(function() {
+    if ($(this).scrollTop() > 170){  
+        $('.logo').addClass("stickylogo");
+        $(".logo img").remove();
+        $('.logo').append("<img src='images/logohadithnet2.png' />");
+        $('.srchinput').addClass("stickysrch");
+       
+    }
+    else{
+        $('.logo').removeClass("stickylogo");
+        $(".logo img").remove();
+        $('.logo').append("<img src='images/logohadithnet.png' />");
+        $('.srchinput').removeClass("stickysrch");
+    }
+});
+
+    </script>
+</body>
+
+</html>
