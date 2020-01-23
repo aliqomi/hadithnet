@@ -7,12 +7,25 @@
     color: #0a0a0a;
 }
 
+.rowbooks {
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+}
+
+.dbook {
+    height: 164px;
+    overflow: hidden;
+}
+
 .listnews {
     color: #666;
     overflow: hidden;
     background: #fff;
-    border-radius: 15px;
-    padding: 10px 10px;
+    border-radius: 15px 15px 0 0;
+    padding: 15px;
+    height: 210px;
+    -webkit-box-shadow: 0 6px 15px rgba(0, 0, 0, .15);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, .15);
 }
 
 .listnews:nth-child(odd) {
@@ -25,8 +38,6 @@
 
 .listnews:hover {
     background-color: #f9fbfd;
-    -webkit-box-shadow: 0 6px 15px rgba(0, 0, 0, .15);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, .15);
 }
 
 .listnews h2 {
@@ -49,21 +60,31 @@
 }
 
 .listright img {
-    height: 105px;
-    border-radius: 3%;
+    height: 148px;
+    border-radius: 8px;
 }
 
 .listcenter {
     padding: 10px 15px;
 }
 
+.authorbook {
+    margin-right: 10px;
+    padding: 5px;
+    max-height: 52px;
+    overflow: hidden;
+    line-height: 22px;
+    font-size: 13px;
+}
+
 .listcenter p {
     text-align: justify;
-    line-height: 1.8
+    line-height: 1.8;
 }
 
 .listleft {
-    color: #afafaf;
+    color: #b3b2b6;
+    background: #ebf0f3;
 }
 
 .listleft .fa {

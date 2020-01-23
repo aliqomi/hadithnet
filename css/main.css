@@ -1,4 +1,4 @@
-﻿@import url(font-awesome.min.css);
+@import url(font-awesome.min.css);
 @font-face {
   font-family: Sahel;
   src: url('../fonts/sahel.eot');
@@ -93,7 +93,7 @@ html::-webkit-scrollbar-track {
   background-image: linear-gradient(to top, #73bdf9 0%, #2b418f 100%); 
 }
 body {
-  font-family: Vazir,tahoma,arial ;
+  font-family: Vazir,tahoma,arial;
   font-size: .9rem;
   direction: rtl;
   background: #f5f8fa;
