@@ -1,0 +1,76 @@
+.mainpanle {
+    padding: 10px 0;
+    opacity: .7;
+    font-size: 13px;
+}
+
+
+/*********************************************************/
+
+.title {
+    font-family: 'sahel';
+    color: #0071ab;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 0;
+    text-align: center;
+    margin: 12px 0;
+}
+
+.khb1 {
+    /* border-bottom: 1px #e6e3e3 dotted; */
+    /* border-top: 1px #e6e3e3 dotted; */
+    position: relative;
+    font-size: 12px;
+    color: #c3c7c5;
+    text-align: left;
+    padding: 5px;
+}
+
+.khb1 i {
+    margin-left: 5px;
+}
+
+.s_khb2:not(:last-child):after {
+    content: "|";
+    display: inline-block;
+    opacity: 0.4;
+    padding: 0 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #367490;
+    background-color: #e9f1f7;
+    line-height: 180%;
+    text-align: justify;
+    height: auto;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+img.khb3 {
+    margin-right: 15px;
+    margin-top: 7px;
+    border-radius: 3%;
+}
+
+.khb4 {
+    margin: 15px 0;
+}
+
+h4.toptitle {
+    color: #9c9c9c;
+    margin: 10px 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.khb4 {
+    line-height: 28px;
+    font-size: .96rem;
+    color: #353535;
+    text-align: justify;
+}
