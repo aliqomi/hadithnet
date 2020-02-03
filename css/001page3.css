@@ -74,3 +74,19 @@ h4.toptitle {
     color: #353535;
     text-align: justify;
 }
+
+.leftbox {
+    border-radius: 8px;
+    background: #eff1fe;
+    height: 300px;
+}
+
+.tleftbox h2 {
+    font-family: 'sahel';
+    color: #5f6368;
+    padding: 12.8px 0;
+    margin: 0 16px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 16px;
+    font-weight: 700;
+}
