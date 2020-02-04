@@ -84,9 +84,56 @@ h4.toptitle {
 .tleftbox h2 {
     font-family: 'sahel';
     color: #5f6368;
-    padding: 12.8px 0;
+    padding: 12px 0;
     margin: 0 16px;
     border-bottom: 1px solid #dadce0;
     font-size: 16px;
     font-weight: 700;
+}
+
+.art {
+    margin: 10px 16px;
+}
+
+.art h4 a {
+    font-weight: 500;
+    font-size: 13px;
+    color: #696969;
+}
+
+.figart {
+    width: 60px;
+    height: 60px;
+    flex: 0 0 auto;
+    /* padding: 10px; */
+    position: relative;
+    margin: 0 5px 0 0;
+    border-radius: 8px;
+    /* display: block; */
+    overflow: hidden;
+}
+
+.figart img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: inherit;
+}
+
+.aart {
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    cursor: pointer;
+    box-sizing: inherit;
+    display: flex;
 }
