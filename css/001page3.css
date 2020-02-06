@@ -77,7 +77,7 @@ h4.toptitle {
 
 .leftbox {
     border-radius: 8px;
-    background: #eff1fe;
+    background: #e9f1f7;
     height: 300px;
 }
 
@@ -96,9 +96,11 @@ h4.toptitle {
 }
 
 .art h4 a {
+    display: block;
     font-weight: 500;
     font-size: 13px;
     color: #696969;
+    line-height: 1.8;
 }
 
 .figart {
@@ -107,7 +109,7 @@ h4.toptitle {
     flex: 0 0 auto;
     /* padding: 10px; */
     position: relative;
-    margin: 0 5px 0 0;
+    margin: 0 10px 0 0;
     border-radius: 8px;
     /* display: block; */
     overflow: hidden;
@@ -127,7 +129,7 @@ h4.toptitle {
 }
 
 .aart {
-    /* position: absolute; */
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -135,5 +137,6 @@ h4.toptitle {
     z-index: 5;
     cursor: pointer;
     box-sizing: inherit;
-    display: flex;
+    /* display: flex; */
+    box-sizing: initial;
 }
