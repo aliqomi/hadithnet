@@ -23,9 +23,10 @@
     /* border-top: 1px #e6e3e3 dotted; */
     position: relative;
     font-size: 12px;
-    color: #c3c7c5;
+    color: #b5b9b7;
     text-align: left;
     padding: 5px;
+    font-family: sahel;
 }
 
 .khb1 i {
@@ -41,7 +42,7 @@
 
 .description {
     font-size: 14px;
-    color: #367490;
+    color: #2f6882;
     background-color: #e9f1f7;
     line-height: 180%;
     text-align: justify;
@@ -55,6 +56,7 @@ img.khb3 {
     margin-right: 15px;
     margin-top: 7px;
     border-radius: 3%;
+    width: 230px;
 }
 
 .khb4 {
@@ -79,6 +81,7 @@ h4.toptitle {
     border-radius: 8px;
     background: #e9f1f7;
     height: 300px;
+    padding: 12px 0;
 }
 
 .tleftbox h2 {
