@@ -1,0 +1,237 @@
+﻿@media screen and (max-width: 1200px){
+  .ServicesParent1 {
+    width: 60%;
+    height: 37%;
+   
+  }
+  
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+  .navbar-brand{
+    margin-right: 0;
+  }
+  .navbar-default.navbar-reduce .nav-link{
+    font-size: .8rem;
+  }
+  .logo.stickylogo img {
+    height: 32px;
+}
+.navbar-nav>li:not(:last-child):after{
+  content: "|";
+    display: inline-block;
+    opacity: 0.4;
+    -ms-transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+    transform: none;
+    
+}
+.navbar-default.navbar-reduce .nav-item{
+  padding-right: 5px;
+}
+  .ServicesParent1 {
+    opacity: .1;
+    height: 30%;
+   
+  }
+ 
+ .section6 .disc{
+  -ms-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  margin-top: 150px;
+  position: absolute;
+    width: 200px;
+    
+    
+ }
+ .section6 .card:hover{
+  margin-left: 0;
+  -ms-flex-item-align: center;
+  align-self: center;
+  
+}
+  /* .section4 .rowbooks img {
+    height: 133px;
+}
+.section4 .tabnashr img ,.section5 .tabnashr img{
+   height: 133px;
+} */
+.section6 .title{
+  font-size: 13px;
+  margin: 15px 0 0 10px;
+}
+.bar {
+ 
+  top: 40px;
+  left: 10px;
+  height: 5px;
+  width: ;
+}
+.divtab {
+  width: 77%;
+}
+.section4 .tabnashr ,.section5 .tabnashr{
+  width: 77%;
+}
+.section2 .tab-pane .divtab {
+  width: 65%;
+}
+.section4 .distabs , .section5 .distabs{
+  width: 19.3%;
+}
+
+.culmfoot1{
+  text-align: center;
+}
+
+
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar-brand{
+    margin-right: 0;
+  }
+
+  .navbar-default.navbar-trans .nav-link, .navbar-default.navbar-reduce .nav-link{
+    font-size: .67rem;
+  }
+  .logo.stickylogo img {
+    height: 22px;
+   
+}
+  .ServicesParent1 {
+    opacity: .1;
+    width: 60%;
+     }
+   .section6 .title{
+    font-size: 11px;
+    text-align: center;
+    margin: 0;
+    padding:10px 7px;
+    -ms-flex-item-align: center !important;
+    align-self:center !important;
+  }
+  .section4 .rowbooks img  {
+    height: 133px;
+}
+.section4 .tabnashr img ,.section5 .distabs>a>img{
+  height: 133px;
+}
+    }
+
+
+
+@media (max-width: 576px) {
+  .navbar-brand{
+    margin-right: 0;
+  }
+  .logo.stickylogo img {
+    height: 38px;
+   
+}
+.navbar-collapse {
+  text-align: center;
+}
+.navbar-default.navbar-trans .nav-link, .navbar-default.navbar-reduce .nav-link{
+  font-size: .8rem;
+}
+.navbar-nav>li:not(:last-child):after {
+  content: "";
+ 
+}
+.stickysrch{
+  left:0;
+}
+.navbar-nav>li {
+   border-top: 1px solid #e5f0f7;
+}
+  .hadithdaily{
+    display: none;
+  }
+  .stikyhead {
+    justify-content: center;
+}
+.stikyhead .stickybt{
+  left:10px;
+  top: 14px;
+}
+  .ServicesParent1 {
+    width: 40%;
+    height: 17%;
+  
+  }
+      .section6 .title{
+      font-size: 11px;
+      text-align: center;
+      margin: 0;
+      padding:10px 7px;
+      -ms-flex-item-align: center !important;
+      align-self:center !important;
+    }
+    .bar{
+      left: 10px;
+    height: 3px;
+    width: 76%;
+    }
+    .divtab {
+      width: 69%;
+    }
+    .section4 .tabnashr , .section5 .tabnashr{
+      width: 74%;
+    }
+    .section4 .distabs ,.section5 .distabs{
+      width: 22%;
+    }
+    /* .section4 .rowbooks img {
+      height: 170px;
+  }
+  .section4 .tabnashr img ,.section5 .tabnashr img{
+    height: 170px;
+  } */
+    }
+
+    @media screen and ( max-width: 480px) {
+     
+      .ServicesParent1 {
+        width: 40%;
+        height: 13%;
+    }
+    .rowhead {
+      justify-content: center;
+  }
+      .hadithdaily, .datehead, .besmellah {
+        display: none;
+    }
+    .srchinput{
+      margin-top: 180px;
+    z-index: 1021;
+    position: absolute;
+    margin-left: 12px;
+    display: inherit;
+    }
+    .stickysrch{
+      position: fixed;
+      display: block;
+      margin-top: 48px;
+      margin-left: 0;
+    }
+    .section2 .nav-link, .section2 .nav-pills .nav-link.active ,.section5 .nav-link, .section5 .nav-pills .nav-link.active{
+      padding: .5rem .5rem;
+      font-size: .8rem;
+    }
+    }
+
+    @media screen and ( max-width: 320px) {
+     
+
+
+    }
