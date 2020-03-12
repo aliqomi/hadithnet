@@ -1,6 +1,6 @@
 .mainpanle {
-    padding: 10px 0;
-    opacity: .7;
+    padding: 10px 15px;
+    opacity: .5;
     font-size: 13px;
 }
 
@@ -57,6 +57,7 @@ img.khb3 {
     margin-top: 7px;
     border-radius: 3%;
     width: 230px;
+    float: left;
 }
 
 .khb4 {
@@ -80,8 +81,14 @@ h4.toptitle {
 .leftbox {
     border-radius: 8px;
     background: #e9f1f7;
-    height: 300px;
-    padding: 12px 0;
+    padding: 0 0 12px 0;
+}
+
+.leftbox2 {
+    margin-top: 20px;
+    border-radius: 8px;
+    background: #e9f1f7;
+    padding: 0 0 12px 0;
 }
 
 .tleftbox h2 {
@@ -92,6 +99,16 @@ h4.toptitle {
     border-bottom: 1px solid #dadce0;
     font-size: 16px;
     font-weight: 700;
+}
+
+.tleftbox h2:after {
+    content: '';
+    border-bottom: 3px solid #035986;
+    width: 130px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 12px
 }
 
 .art {
@@ -142,4 +159,75 @@ h4.toptitle {
     box-sizing: inherit;
     /* display: flex; */
     box-sizing: initial;
+}
+
+
+/*-------------------------------------------------------------------------*/
+
+.adds .media {
+    display: block;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #ffffff00 15%, #efefef 100%) repeat scroll 0 0;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+
+/*.media-body, .media-left, .media-right {
+    vertical-align: middle !important;
+}*/
+
+.adds .media-right .fa-file-pdf-o {
+    font-size: 18px;
+    margin-left: 10px;
+    padding: 10px;
+    background: #f2f7fb;
+    color: #ff0505;
+}
+
+.adds .media-right .fa-file-word-o {
+    font-size: 18px;
+    margin-left: 10px;
+    padding: 10px;
+    background: #f2f7fb;
+    color: #1506d2;
+}
+
+.adds .media-right .fa-volume-up {
+    font-size: 18px;
+    margin-left: 10px;
+    padding: 10px;
+    background: #f2f7fb;
+    color: #000000;
+}
+
+.aud a:not(.mejs-mute) {
+    margin-top: 7px;
+    display: -webkit-inline-box;
+}
+
+.adds .media-right .fa-video-camera {
+    font-size: 18px;
+    margin-left: 10px;
+    padding: 10px;
+    background: #f2f7fb;
+    color: #c18005;
+}
+
+
+/*-------------------------------------------------------------------------*/
+
+@media screen and ( max-width: 480px) {
+    img.khb3 {
+        margin-top: 7px;
+        border-radius: 3%;
+        width: 100%;
+    }
+}
+
+@media screen and ( max-width: 320px) {
+    img.khb3 {
+        margin-top: 7px;
+        border-radius: 3%;
+        width: 100%;
+    }
 }
