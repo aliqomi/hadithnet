@@ -179,14 +179,14 @@ h4.toptitle {
     font-size: .9rem;
     color: #075e8c;
     font-weight: bold;
-    background: #b5e1ef;
+    background: #ececec;
     color: #000000;
 }
 
 .addtag .fa-tags {
     font-size: 16px;
     padding: 10px;
-    background: #ddf0ff;
+    background: #dedede;
     color: #000000;
 }
 
@@ -318,6 +318,19 @@ h4.toptitle {
     background: #ddf0ff;
     color: #000000;
 }
+
+
+/*-- marquee --*/
+
+.marquee {
+    line-height: 1.3em;
+    color: #330099;
+    padding: 1.5em;
+    width: 500px;
+}
+
+
+/*-- marquee --*/
 
 
 /*-------------------------------------------------------------------------*/
